@@ -1,0 +1,16 @@
+/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/lib/camera_publisher/camera_publisher
+/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/ament_index/resource_index/package_run_dependencies/camera_publisher
+/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/ament_index/resource_index/parent_prefix_path/camera_publisher
+/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/environment/ament_prefix_path.sh
+/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/environment/ament_prefix_path.dsv
+/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/environment/path.sh
+/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/environment/path.dsv
+/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/local_setup.bash
+/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/local_setup.sh
+/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/local_setup.zsh
+/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/local_setup.dsv
+/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/package.dsv
+/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/ament_index/resource_index/packages/camera_publisher
+/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/cmake/camera_publisherConfig.cmake
+/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/cmake/camera_publisherConfig-version.cmake
+/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/package.xml

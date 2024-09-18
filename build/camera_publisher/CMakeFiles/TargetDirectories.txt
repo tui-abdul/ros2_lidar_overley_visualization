@@ -1,0 +1,10 @@
+/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher/CMakeFiles/uninstall.dir
+/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher/CMakeFiles/camera_publisher_uninstall.dir
+/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher/CMakeFiles/camera_publisher.dir
+/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher/CMakeFiles/test.dir
+/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher/CMakeFiles/edit_cache.dir
+/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher/CMakeFiles/rebuild_cache.dir
+/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher/CMakeFiles/list_install_components.dir
+/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher/CMakeFiles/install.dir
+/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher/CMakeFiles/install/local.dir
+/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher/CMakeFiles/install/strip.dir

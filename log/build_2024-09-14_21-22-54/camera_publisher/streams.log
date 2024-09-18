@@ -1,0 +1,25 @@
+[0.019s] Invoking command in '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher -- -j28 -l28
+[0.139s] [ 50%] [32mBuilding CXX object CMakeFiles/camera_publisher.dir/src/camera_publisher.cpp.o[0m
+[8.973s] [100%] [32m[1mLinking CXX executable camera_publisher[0m
+[9.840s] [100%] Built target camera_publisher
+[9.863s] Invoked command in '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher -- -j28 -l28
+[9.942s] Invoking command in '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher
+[9.959s] -- Install configuration: ""
+[9.959s] -- Installing: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/lib/camera_publisher/camera_publisher
+[9.967s] -- Set runtime path of "/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/lib/camera_publisher/camera_publisher" to ""
+[9.967s] -- Up-to-date: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/ament_index/resource_index/package_run_dependencies/camera_publisher
+[9.967s] -- Up-to-date: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/ament_index/resource_index/parent_prefix_path/camera_publisher
+[9.967s] -- Up-to-date: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/environment/ament_prefix_path.sh
+[9.967s] -- Up-to-date: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/environment/ament_prefix_path.dsv
+[9.968s] -- Up-to-date: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/environment/path.sh
+[9.968s] -- Up-to-date: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/environment/path.dsv
+[9.968s] -- Up-to-date: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/local_setup.bash
+[9.968s] -- Up-to-date: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/local_setup.sh
+[9.968s] -- Up-to-date: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/local_setup.zsh
+[9.968s] -- Up-to-date: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/local_setup.dsv
+[9.969s] -- Installing: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/package.dsv
+[9.969s] -- Up-to-date: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/ament_index/resource_index/packages/camera_publisher
+[9.969s] -- Up-to-date: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/cmake/camera_publisherConfig.cmake
+[9.969s] -- Up-to-date: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/cmake/camera_publisherConfig-version.cmake
+[9.969s] -- Up-to-date: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/package.xml
+[9.971s] Invoked command in '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher
