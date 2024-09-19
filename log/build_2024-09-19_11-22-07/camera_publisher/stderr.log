@@ -1,0 +1,17 @@
+[01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:[m[K In constructor ‘[01m[KCameraSubscriber::CameraSubscriber()[m[K’:
+[01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:44:47:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmessage_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::PointCloud2_<std::allocator<void> > >::ApproximateTime(int, double)[m[K’
+   44 |         sensor_msgs::msg::PointCloud2>(20,0.20[01;31m[K)[m[K, image_sub_, pointcloud_sub_);
+      |                                               [01;31m[K^[m[K
+In file included from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:9[m[K:
+[01m[K/opt/ros/humble/include/message_filters/message_filters/sync_policies/approximate_time.h:130:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmessage_filters::sync_policies::ApproximateTime<M0, M1, M2, M3, M4, M5, M6, M7, M8>::ApproximateTime(const message_filters::sync_policies::ApproximateTime<M0, M1, M2, M3, M4, M5, M6, M7, M8>&) [with M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::PointCloud2_<std::allocator<void> >; M2 = message_filters::NullType; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’
+  130 |   [01;36m[KApproximateTime[m[K(const ApproximateTime& e)
+      |   [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/message_filters/message_filters/sync_policies/approximate_time.h:130:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+In file included from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:9[m[K:
+[01m[K/opt/ros/humble/include/message_filters/message_filters/sync_policies/approximate_time.h:116:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmessage_filters::sync_policies::ApproximateTime<M0, M1, M2, M3, M4, M5, M6, M7, M8>::ApproximateTime(uint32_t) [with M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::PointCloud2_<std::allocator<void> >; M2 = message_filters::NullType; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType; uint32_t = unsigned int][m[K’
+  116 |   [01;36m[KApproximateTime[m[K(uint32_t queue_size)
+      |   [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/message_filters/message_filters/sync_policies/approximate_time.h:116:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+gmake[2]: *** [CMakeFiles/camera_publisher.dir/build.make:76: CMakeFiles/camera_publisher.dir/src/camera_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/camera_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,176 @@
+[0.000000] (-) TimerEvent: {}
+[0.000521] (camera_publisher) JobQueued: {'identifier': 'camera_publisher', 'dependencies': OrderedDict()}
+[0.000651] (camera_publisher) JobStarted: {'identifier': 'camera_publisher'}
+[0.010705] (camera_publisher) JobProgress: {'identifier': 'camera_publisher', 'progress': 'cmake'}
+[0.012018] (camera_publisher) JobProgress: {'identifier': 'camera_publisher', 'progress': 'build'}
+[0.013640] (camera_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher', '--', '-j28', '-l28'], 'cwd': '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', ''), ('USER', 'abd1340m'), ('SSH_AGENT_PID', '13296'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/abd1340m'), ('OLDPWD', '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('MODULES_CMD', '/usr/lib/x86_64-linux-gnu/modulecmd.tcl'), ('LC_CTYPE', ''), ('SYSTEMD_EXEC_PID', '14795'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1003/bus'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'abd1340m'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('LC_COLLATE', ''), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/fma-pc-kc05lx:@/tmp/.ICE-unix/13537,unix/fma-pc-kc05lx:/tmp/.ICE-unix/13537'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b3f6261e_2be4_4a14_a0c4_6e82fd8dd079'), ('XDG_RUNTIME_DIR', '/run/user/1003'), ('DISPLAY', ':10.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AUTH_SOCK', '/run/user/1003/keyring/ssh'), ('ROS_DOMAIN_ID', '12'), ('AMENT_PREFIX_PATH', '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher:/opt/ros/humble'), ('LC_MESSAGES', ''), ('UID', '1003'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1003/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', 'JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64/bin/java'), ('PWD', '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher'), ('LOADEDMODULES', ''), ('LC_ALL', 'en_US.UTF-8'), ('PYLON_ROOT', '/opt/pylon'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/home/abd1340m/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', ':/opt/pylon/lib/gentlproducer/gtl'), ('MANPATH', ':'), ('VTE_VERSION', '6800'), ('MODULEPATH', '/etc/environment-modules/modules:/usr/share/modules/versions:/usr/share/modules/$MODULE_VERSION/modulefiles:/usr/share/modules/modulefiles'), ('MODULESHOME', '/usr/share/modules'), ('CMAKE_PREFIX_PATH', '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher:/opt/ros/humble')]), 'shell': False}
+[0.099795] (-) TimerEvent: {}
+[0.107774] (camera_publisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target camera_publisher\x1b[0m\n'}
+[0.144140] (camera_publisher) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/camera_publisher.dir/src/camera_publisher.cpp.o\x1b[0m\n'}
+[0.199940] (-) TimerEvent: {}
+[0.300794] (-) TimerEvent: {}
+[0.401282] (-) TimerEvent: {}
+[0.502109] (-) TimerEvent: {}
+[0.602696] (-) TimerEvent: {}
+[0.703533] (-) TimerEvent: {}
+[0.804014] (-) TimerEvent: {}
+[0.904858] (-) TimerEvent: {}
+[1.005724] (-) TimerEvent: {}
+[1.106664] (-) TimerEvent: {}
+[1.207085] (-) TimerEvent: {}
+[1.307500] (-) TimerEvent: {}
+[1.408351] (-) TimerEvent: {}
+[1.508827] (-) TimerEvent: {}
+[1.609244] (-) TimerEvent: {}
+[1.709673] (-) TimerEvent: {}
+[1.810086] (-) TimerEvent: {}
+[1.910479] (-) TimerEvent: {}
+[2.011415] (-) TimerEvent: {}
+[2.112275] (-) TimerEvent: {}
+[2.212769] (-) TimerEvent: {}
+[2.313231] (-) TimerEvent: {}
+[2.413708] (-) TimerEvent: {}
+[2.514188] (-) TimerEvent: {}
+[2.614689] (-) TimerEvent: {}
+[2.715552] (-) TimerEvent: {}
+[2.816129] (-) TimerEvent: {}
+[2.916687] (-) TimerEvent: {}
+[3.017186] (-) TimerEvent: {}
+[3.118050] (-) TimerEvent: {}
+[3.218548] (-) TimerEvent: {}
+[3.319055] (-) TimerEvent: {}
+[3.419515] (-) TimerEvent: {}
+[3.519991] (-) TimerEvent: {}
+[3.527294] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KCameraSubscriber::CameraSubscriber()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.528126] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:44:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Duration::Duration(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.528313] (camera_publisher) StderrLine: {'line': b'   44 |         sync_policy.setInterMessageLowerBound(0, rclcpp::Duration(0.1\x1b[01;31m\x1b[K)\x1b[m\x1b[K);\n'}
+[3.528470] (camera_publisher) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.528622] (camera_publisher) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[3.528768] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32\x1b[m\x1b[K,\n'}
+[3.528916] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42\x1b[m\x1b[K,\n'}
+[3.529071] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.529213] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.529353] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.529495] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.529637] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.529777] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.529914] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.530052] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.530190] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.530328] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:1\x1b[m\x1b[K:\n'}
+[3.530466] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:151:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Duration::Duration()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.530633] (camera_publisher) StderrLine: {'line': b'  151 |   \x1b[01;36m\x1b[KDuration\x1b[m\x1b[K() = default;\n'}
+[3.530782] (camera_publisher) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.530919] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:151:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[3.531057] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:61:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Duration::Duration(const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.531198] (camera_publisher) StderrLine: {'line': b'   61 |   \x1b[01;36m\x1b[KDuration\x1b[m\x1b[K(const Duration & rhs);\n'}
+[3.531336] (camera_publisher) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.531471] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:61:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::Duration&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.531688] (camera_publisher) StderrLine: {'line': b'   61 |   Duration(\x1b[01;36m\x1b[Kconst Duration & rhs\x1b[m\x1b[K);\n'}
+[3.531899] (camera_publisher) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.532043] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:59:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Duration::Duration(const rcl_duration_t&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.532185] (camera_publisher) StderrLine: {'line': b'   59 |   explicit \x1b[01;36m\x1b[KDuration\x1b[m\x1b[K(const rcl_duration_t & duration);\n'}
+[3.532324] (camera_publisher) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.532482] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:59:44:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rcl_duration_t&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst rcl_duration_s&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.532640] (camera_publisher) StderrLine: {'line': b'   59 |   explicit Duration(\x1b[01;36m\x1b[Kconst rcl_duration_t & duration\x1b[m\x1b[K);\n'}
+[3.532778] (camera_publisher) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[3.532916] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:53:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Duration::Duration(const Duration&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.533054] (camera_publisher) StderrLine: {'line': b'   53 |   \x1b[01;36m\x1b[KDuration\x1b[m\x1b[K(const builtin_interfaces::msg::Duration & duration_msg);  // NOLINT(runtime/explicit)\n'}
+[3.533192] (camera_publisher) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.533329] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:53:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst Duration&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst builtin_interfaces::msg::Duration_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.533491] (camera_publisher) StderrLine: {'line': b'   53 |   Duration(\x1b[01;36m\x1b[Kconst builtin_interfaces::msg::Duration & duration_msg\x1b[m\x1b[K);  // NOLINT(runtime/explicit)\n'}
+[3.533630] (camera_publisher) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.533768] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:48:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class Rep, class Period> rclcpp::Duration::Duration(const std::chrono::duration<_Rep1, _Period1>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.533911] (camera_publisher) StderrLine: {'line': b'   48 |   \x1b[01;36m\x1b[KDuration\x1b[m\x1b[K(const std::chrono::duration<Rep, Period> & duration)  // NOLINT(runtime/explicit)\n'}
+[3.534048] (camera_publisher) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.534183] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:48:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.534320] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:44:70:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::chrono::duration<_Rep1, _Period1>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.534464] (camera_publisher) StderrLine: {'line': b'   44 |         sync_policy.setInterMessageLowerBound(0, rclcpp::Duration(0.1\x1b[01;36m\x1b[K)\x1b[m\x1b[K);\n'}
+[3.534618] (camera_publisher) StderrLine: {'line': b'      |                                                                      \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.534764] (camera_publisher) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[3.534901] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32\x1b[m\x1b[K,\n'}
+[3.535048] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42\x1b[m\x1b[K,\n'}
+[3.535185] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.535322] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.535459] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.535596] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.535733] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.535871] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.536008] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.536147] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.536284] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.536423] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:1\x1b[m\x1b[K:\n'}
+[3.536564] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:42:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Duration::Duration(std::chrono::nanoseconds)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.536704] (camera_publisher) StderrLine: {'line': b'   42 |   explicit \x1b[01;36m\x1b[KDuration\x1b[m\x1b[K(std::chrono::nanoseconds nanoseconds);\n'}
+[3.536843] (camera_publisher) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.536980] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:42:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::nanoseconds\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::chrono::duration<long int, std::ratio<1, 1000000000> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.537135] (camera_publisher) StderrLine: {'line': b'   42 |   explicit Duration(\x1b[01;36m\x1b[Kstd::chrono::nanoseconds nanoseconds\x1b[m\x1b[K);\n'}
+[3.537274] (camera_publisher) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.537413] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:39:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Duration::Duration(int32_t, uint32_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.537555] (camera_publisher) StderrLine: {'line': b'   39 |   \x1b[01;36m\x1b[KDuration\x1b[m\x1b[K(int32_t seconds, uint32_t nanoseconds);\n'}
+[3.537695] (camera_publisher) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.537832] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:39:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[3.620146] (-) TimerEvent: {}
+[3.720680] (-) TimerEvent: {}
+[3.821544] (-) TimerEvent: {}
+[3.922411] (-) TimerEvent: {}
+[4.023301] (-) TimerEvent: {}
+[4.124051] (-) TimerEvent: {}
+[4.224556] (-) TimerEvent: {}
+[4.325033] (-) TimerEvent: {}
+[4.425486] (-) TimerEvent: {}
+[4.525848] (-) TimerEvent: {}
+[4.626301] (-) TimerEvent: {}
+[4.727043] (-) TimerEvent: {}
+[4.827893] (-) TimerEvent: {}
+[4.928419] (-) TimerEvent: {}
+[5.029278] (-) TimerEvent: {}
+[5.130139] (-) TimerEvent: {}
+[5.231019] (-) TimerEvent: {}
+[5.331866] (-) TimerEvent: {}
+[5.432714] (-) TimerEvent: {}
+[5.533582] (-) TimerEvent: {}
+[5.634431] (-) TimerEvent: {}
+[5.735063] (-) TimerEvent: {}
+[5.835559] (-) TimerEvent: {}
+[5.936043] (-) TimerEvent: {}
+[6.036874] (-) TimerEvent: {}
+[6.137729] (-) TimerEvent: {}
+[6.238576] (-) TimerEvent: {}
+[6.339145] (-) TimerEvent: {}
+[6.439992] (-) TimerEvent: {}
+[6.540523] (-) TimerEvent: {}
+[6.641022] (-) TimerEvent: {}
+[6.741884] (-) TimerEvent: {}
+[6.842384] (-) TimerEvent: {}
+[6.942942] (-) TimerEvent: {}
+[7.043437] (-) TimerEvent: {}
+[7.143929] (-) TimerEvent: {}
+[7.244415] (-) TimerEvent: {}
+[7.345256] (-) TimerEvent: {}
+[7.446134] (-) TimerEvent: {}
+[7.546993] (-) TimerEvent: {}
+[7.647508] (-) TimerEvent: {}
+[7.748371] (-) TimerEvent: {}
+[7.849234] (-) TimerEvent: {}
+[7.950092] (-) TimerEvent: {}
+[8.050951] (-) TimerEvent: {}
+[8.151442] (-) TimerEvent: {}
+[8.252352] (-) TimerEvent: {}
+[8.353223] (-) TimerEvent: {}
+[8.454070] (-) TimerEvent: {}
+[8.554581] (-) TimerEvent: {}
+[8.655170] (-) TimerEvent: {}
+[8.755685] (-) TimerEvent: {}
+[8.856536] (-) TimerEvent: {}
+[8.957409] (-) TimerEvent: {}
+[9.057933] (-) TimerEvent: {}
+[9.158436] (-) TimerEvent: {}
+[9.258947] (-) TimerEvent: {}
+[9.313698] (camera_publisher) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/camera_publisher.dir/build.make:76: CMakeFiles/camera_publisher.dir/src/camera_publisher.cpp.o] Error 1\n'}
+[9.314174] (camera_publisher) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/camera_publisher.dir/all] Error 2\n'}
+[9.314668] (camera_publisher) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.318696] (camera_publisher) CommandEnded: {'returncode': 2}
+[9.359069] (-) TimerEvent: {}
+[9.386192] (camera_publisher) JobEnded: {'identifier': 'camera_publisher', 'rc': 2}
+[9.396781] (-) EventReactorShutdown: {}

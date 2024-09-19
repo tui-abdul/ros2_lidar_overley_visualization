@@ -1,2 +1,0 @@
-Invoking command in '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher -- -j28 -l28
-Invoked command in '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher -- -j28 -l28

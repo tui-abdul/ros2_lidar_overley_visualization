@@ -1,0 +1,15 @@
+[35m[1mConsolidate compiler generated dependencies of target camera_publisher[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/camera_publisher.dir/src/camera_publisher.cpp.o[0m
+[01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:[m[K In constructor ‘[01m[KCameraSubscriber::CameraSubscriber()[m[K’:
+[01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:44:50:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kdouble[m[K’ to ‘[01m[Krclcpp::Duration[m[K’
+   44 |         sync_policy.setInterMessageLowerBound(0, [01;31m[K0.1[m[K);
+      |                                                  [01;31m[K^~~[m[K
+      |                                                  [01;31m[K|[m[K
+      |                                                  [01;31m[Kdouble[m[K
+In file included from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:9[m[K:
+[01m[K/opt/ros/humble/include/message_filters/message_filters/sync_policies/approximate_time.h:267:58:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kvoid message_filters::sync_policies::ApproximateTime<M0, M1, M2, M3, M4, M5, M6, M7, M8>::setInterMessageLowerBound(int, rclcpp::Duration) [with M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::PointCloud2_<std::allocator<void> >; M2 = message_filters::NullType; M3 = message_filters::NullType; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’
+  267 |   void setInterMessageLowerBound(int i, [01;36m[Krclcpp::Duration lower_bound[m[K) {
+      |                                         [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/camera_publisher.dir/build.make:76: CMakeFiles/camera_publisher.dir/src/camera_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/camera_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

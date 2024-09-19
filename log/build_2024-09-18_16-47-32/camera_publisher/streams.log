@@ -1,0 +1,58 @@
+[0.018s] Invoking command in '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher -- -j28 -l28
+[0.135s] [ 50%] [32mBuilding CXX object CMakeFiles/camera_publisher.dir/src/camera_publisher.cpp.o[0m
+[3.196s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:45:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[3.196s]    45 |     }
+[3.197s]       |      [01;31m[K^[m[K
+[3.197s]       |      [32m[K;[m[K
+[3.197s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:[m[K In constructor ‘[01m[KCameraSubscriber::CameraSubscriber()[m[K’:
+[3.197s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:30:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Ksubscribe[m[K’
+[3.197s]    30 |         image_sub_.[01;31m[Ksubscribe[m[K(this, "/my_camera/pylon_ros2_camera_node/image_raw", rmw_qos_profile_sensor_data);
+[3.197s]       |                    [01;31m[K^~~~~~~~~[m[K
+[3.203s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:31:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpointcloud_sub_[m[K’ was not declared in this scope
+[3.203s]    31 |         [01;31m[Kpointcloud_sub_[m[K.subscribe(this, "/ouster/points", rmw_qos_profile_sensor_data);
+[3.203s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.204s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:33:26:[m[K [01;31m[Kerror: [m[K‘[01m[KSubscriber[m[K’ is not a member of ‘[01m[Kmessage_filters[m[K’
+[3.204s]    33 |         message_filters::[01;31m[KSubscriber[m[K<sensor_msgs::msg::Image> image_sub_;
+[3.204s]       |                          [01;31m[K^~~~~~~~~~[m[K
+[3.204s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:33:60:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[3.204s]    33 |         message_filters::Subscriber<sensor_msgs::msg::Image[01;31m[K>[m[K image_sub_;
+[3.205s]       |                                                            [01;31m[K^[m[K
+[3.205s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:34:26:[m[K [01;31m[Kerror: [m[K‘[01m[KSubscriber[m[K’ is not a member of ‘[01m[Kmessage_filters[m[K’
+[3.205s]    34 |         message_filters::[01;31m[KSubscriber[m[K<sensor_msgs::msg::PointCloud2> pointcloud_sub_;
+[3.205s]       |                          [01;31m[K^~~~~~~~~~[m[K
+[3.205s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:34:66:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[3.205s]    34 |         message_filters::Subscriber<sensor_msgs::msg::PointCloud2[01;31m[K>[m[K pointcloud_sub_;
+[3.205s]       |                                                                  [01;31m[K^[m[K
+[3.205s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:37:47:[m[K [01;31m[Kerror: [m[K‘[01m[KApproximateTime[m[K’ in namespace ‘[01m[Kmessage_filters[m[K’ does not name a template type
+[3.206s]    37 |         using MySyncPolicy = message_filters::[01;31m[KApproximateTime[m[K<sensor_msgs::msg::Image, sensor_msgs::msg::PointCloud2>;
+[3.206s]       |                                               [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.208s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:38:55:[m[K [01;31m[Kerror: [m[K‘[01m[KMySyncPolicy[m[K’ was not declared in this scope
+[3.209s]    38 |         std::shared_ptr<message_filters::Synchronizer<[01;31m[KMySyncPolicy[m[K>> sync_;
+[3.209s]       |                                                       [01;31m[K^~~~~~~~~~~~[m[K
+[3.209s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:38:55:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.209s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:38:67:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.209s]    38 |         std::shared_ptr<message_filters::Synchronizer<MySyncPolicy[01;31m[K>>[m[K sync_;
+[3.209s]       |                                                                   [01;31m[K^~[m[K
+[3.210s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:40:16:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kreset[m[K’ in ‘[01m[Ksync_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.210s]    40 |          sync_.[01;31m[Kreset[m[K(new Sync(MySyncPolicy(10), image_sub_, pointcloud_sub_));
+[3.210s]       |                [01;31m[K^~~~~[m[K
+[3.210s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:40:26:[m[K [01;31m[Kerror: [m[Kexpected type-specifier before ‘[01m[KSync[m[K’
+[3.210s]    40 |          sync_.reset(new [01;31m[KSync[m[K(MySyncPolicy(10), image_sub_, pointcloud_sub_));
+[3.210s]       |                          [01;31m[K^~~~[m[K
+[3.210s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:43:14:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[3.211s]    43 |         sync_[01;31m[K->[m[KregisterCallback(std::bind(&CameraSubscriber::syncCallback, this, std::placeholders::_1, std::placeholders::_2));
+[3.211s]       |              [01;31m[K^~[m[K
+[3.211s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:43:62:[m[K [01;31m[Kerror: [m[K‘[01m[KsyncCallback[m[K’ is not a member of ‘[01m[KCameraSubscriber[m[K’
+[3.211s]    43 |         sync_->registerCallback(std::bind(&CameraSubscriber::[01;31m[KsyncCallback[m[K, this, std::placeholders::_1, std::placeholders::_2));
+[3.211s]       |                                                              [01;31m[K^~~~~~~~~~~~[m[K
+[3.211s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:[m[K At global scope:
+[3.211s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:47:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+[3.211s]    47 | [01;31m[Kprivate[m[K:
+[3.212s]       | [01;31m[K^~~~~~~[m[K
+[3.212s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:70:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[3.212s]    70 | [01;31m[K}[m[K;
+[3.212s]       | [01;31m[K^[m[K
+[4.824s] gmake[2]: *** [CMakeFiles/camera_publisher.dir/build.make:76: CMakeFiles/camera_publisher.dir/src/camera_publisher.cpp.o] Error 1
+[4.825s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/camera_publisher.dir/all] Error 2
+[4.825s] gmake: *** [Makefile:146: all] Error 2
+[4.829s] Invoked command in '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher -- -j28 -l28

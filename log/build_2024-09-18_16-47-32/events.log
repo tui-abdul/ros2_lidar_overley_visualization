@@ -1,0 +1,113 @@
+[0.000000] (-) TimerEvent: {}
+[0.000818] (camera_publisher) JobQueued: {'identifier': 'camera_publisher', 'dependencies': OrderedDict()}
+[0.000966] (camera_publisher) JobStarted: {'identifier': 'camera_publisher'}
+[0.010607] (camera_publisher) JobProgress: {'identifier': 'camera_publisher', 'progress': 'cmake'}
+[0.011944] (camera_publisher) JobProgress: {'identifier': 'camera_publisher', 'progress': 'build'}
+[0.013594] (camera_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher', '--', '-j28', '-l28'], 'cwd': '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', ''), ('USER', 'abd1340m'), ('SSH_AGENT_PID', '13296'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/abd1340m'), ('OLDPWD', '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('MODULES_CMD', '/usr/lib/x86_64-linux-gnu/modulecmd.tcl'), ('LC_CTYPE', ''), ('SYSTEMD_EXEC_PID', '14795'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1003/bus'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'abd1340m'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('LC_COLLATE', ''), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/fma-pc-kc05lx:@/tmp/.ICE-unix/13537,unix/fma-pc-kc05lx:/tmp/.ICE-unix/13537'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b3f6261e_2be4_4a14_a0c4_6e82fd8dd079'), ('XDG_RUNTIME_DIR', '/run/user/1003'), ('DISPLAY', ':10.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AUTH_SOCK', '/run/user/1003/keyring/ssh'), ('ROS_DOMAIN_ID', '12'), ('AMENT_PREFIX_PATH', '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher:/opt/ros/humble'), ('LC_MESSAGES', ''), ('UID', '1003'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1003/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', 'JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64/bin/java'), ('PWD', '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher'), ('LOADEDMODULES', ''), ('LC_ALL', 'en_US.UTF-8'), ('PYLON_ROOT', '/opt/pylon'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/home/abd1340m/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', ':/opt/pylon/lib/gentlproducer/gtl'), ('MANPATH', ':'), ('VTE_VERSION', '6800'), ('MODULEPATH', '/etc/environment-modules/modules:/usr/share/modules/versions:/usr/share/modules/$MODULE_VERSION/modulefiles:/usr/share/modules/modulefiles'), ('MODULESHOME', '/usr/share/modules'), ('CMAKE_PREFIX_PATH', '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher:/opt/ros/humble')]), 'shell': False}
+[0.100060] (-) TimerEvent: {}
+[0.136179] (camera_publisher) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/camera_publisher.dir/src/camera_publisher.cpp.o\x1b[0m\n'}
+[0.200579] (-) TimerEvent: {}
+[0.301078] (-) TimerEvent: {}
+[0.401580] (-) TimerEvent: {}
+[0.502064] (-) TimerEvent: {}
+[0.602923] (-) TimerEvent: {}
+[0.703389] (-) TimerEvent: {}
+[0.803785] (-) TimerEvent: {}
+[0.904189] (-) TimerEvent: {}
+[1.004615] (-) TimerEvent: {}
+[1.105010] (-) TimerEvent: {}
+[1.205397] (-) TimerEvent: {}
+[1.305786] (-) TimerEvent: {}
+[1.406197] (-) TimerEvent: {}
+[1.507056] (-) TimerEvent: {}
+[1.607897] (-) TimerEvent: {}
+[1.708755] (-) TimerEvent: {}
+[1.809243] (-) TimerEvent: {}
+[1.909731] (-) TimerEvent: {}
+[2.010594] (-) TimerEvent: {}
+[2.111463] (-) TimerEvent: {}
+[2.211966] (-) TimerEvent: {}
+[2.312450] (-) TimerEvent: {}
+[2.413000] (-) TimerEvent: {}
+[2.513500] (-) TimerEvent: {}
+[2.613983] (-) TimerEvent: {}
+[2.714466] (-) TimerEvent: {}
+[2.814958] (-) TimerEvent: {}
+[2.915434] (-) TimerEvent: {}
+[3.015903] (-) TimerEvent: {}
+[3.116394] (-) TimerEvent: {}
+[3.196811] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:45:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 after class definition\n'}
+[3.197233] (camera_publisher) StderrLine: {'line': b'   45 |     }\n'}
+[3.197508] (camera_publisher) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.197663] (camera_publisher) StderrLine: {'line': b'      |      \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[3.197807] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KCameraSubscriber::CameraSubscriber()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.197960] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:30:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing SharedPtr = class std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ksubscribe\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.198119] (camera_publisher) StderrLine: {'line': b'   30 |         image_sub_.\x1b[01;31m\x1b[Ksubscribe\x1b[m\x1b[K(this, "/my_camera/pylon_ros2_camera_node/image_raw", rmw_qos_profile_sensor_data);\n'}
+[3.198279] (camera_publisher) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.203803] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:31:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpointcloud_sub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.204096] (camera_publisher) StderrLine: {'line': b'   31 |         \x1b[01;31m\x1b[Kpointcloud_sub_\x1b[m\x1b[K.subscribe(this, "/ouster/points", rmw_qos_profile_sensor_data);\n'}
+[3.204265] (camera_publisher) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.204555] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:33:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSubscriber\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.204845] (camera_publisher) StderrLine: {'line': b'   33 |         message_filters::\x1b[01;31m\x1b[KSubscriber\x1b[m\x1b[K<sensor_msgs::msg::Image> image_sub_;\n'}
+[3.204992] (camera_publisher) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.205133] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:33:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.205277] (camera_publisher) StderrLine: {'line': b'   33 |         message_filters::Subscriber<sensor_msgs::msg::Image\x1b[01;31m\x1b[K>\x1b[m\x1b[K image_sub_;\n'}
+[3.205415] (camera_publisher) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.205553] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:34:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSubscriber\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.205694] (camera_publisher) StderrLine: {'line': b'   34 |         message_filters::\x1b[01;31m\x1b[KSubscriber\x1b[m\x1b[K<sensor_msgs::msg::PointCloud2> pointcloud_sub_;\n'}
+[3.205831] (camera_publisher) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.205967] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:34:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.206107] (camera_publisher) StderrLine: {'line': b'   34 |         message_filters::Subscriber<sensor_msgs::msg::PointCloud2\x1b[01;31m\x1b[K>\x1b[m\x1b[K pointcloud_sub_;\n'}
+[3.206243] (camera_publisher) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.206379] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:37:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KApproximateTime\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters\x1b[m\x1b[K\xe2\x80\x99 does not name a template type\n'}
+[3.206522] (camera_publisher) StderrLine: {'line': b'   37 |         using MySyncPolicy = message_filters::\x1b[01;31m\x1b[KApproximateTime\x1b[m\x1b[K<sensor_msgs::msg::Image, sensor_msgs::msg::PointCloud2>;\n'}
+[3.206659] (camera_publisher) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.209093] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:38:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMySyncPolicy\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.209574] (camera_publisher) StderrLine: {'line': b'   38 |         std::shared_ptr<message_filters::Synchronizer<\x1b[01;31m\x1b[KMySyncPolicy\x1b[m\x1b[K>> sync_;\n'}
+[3.209745] (camera_publisher) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.209891] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:38:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.210047] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:38:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.210195] (camera_publisher) StderrLine: {'line': b'   38 |         std::shared_ptr<message_filters::Synchronizer<MySyncPolicy\x1b[01;31m\x1b[K>>\x1b[m\x1b[K sync_;\n'}
+[3.210333] (camera_publisher) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.210470] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:40:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kreset\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Ksync_\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.210616] (camera_publisher) StderrLine: {'line': b'   40 |          sync_.\x1b[01;31m\x1b[Kreset\x1b[m\x1b[K(new Sync(MySyncPolicy(10), image_sub_, pointcloud_sub_));\n'}
+[3.210752] (camera_publisher) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.210892] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:40:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected type-specifier before \xe2\x80\x98\x1b[01m\x1b[KSync\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.211028] (camera_publisher) StderrLine: {'line': b'   40 |          sync_.reset(new \x1b[01;31m\x1b[KSync\x1b[m\x1b[K(MySyncPolicy(10), image_sub_, pointcloud_sub_));\n'}
+[3.211161] (camera_publisher) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.211293] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:43:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 is not a pointer\n'}
+[3.211427] (camera_publisher) StderrLine: {'line': b'   43 |         sync_\x1b[01;31m\x1b[K->\x1b[m\x1b[KregisterCallback(std::bind(&CameraSubscriber::syncCallback, this, std::placeholders::_1, std::placeholders::_2));\n'}
+[3.211561] (camera_publisher) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.211691] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:43:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KsyncCallback\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[KCameraSubscriber\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.211828] (camera_publisher) StderrLine: {'line': b'   43 |         sync_->registerCallback(std::bind(&CameraSubscriber::\x1b[01;31m\x1b[KsyncCallback\x1b[m\x1b[K, this, std::placeholders::_1, std::placeholders::_2));\n'}
+[3.211962] (camera_publisher) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.212105] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:\x1b[m\x1b[K At global scope:\n'}
+[3.212237] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:47:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kprivate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.212369] (camera_publisher) StderrLine: {'line': b'   47 | \x1b[01;31m\x1b[Kprivate\x1b[m\x1b[K:\n'}
+[3.212501] (camera_publisher) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.212849] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:70:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.213106] (camera_publisher) StderrLine: {'line': b'   70 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[3.213262] (camera_publisher) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.216470] (-) TimerEvent: {}
+[3.316868] (-) TimerEvent: {}
+[3.417335] (-) TimerEvent: {}
+[3.517667] (-) TimerEvent: {}
+[3.618073] (-) TimerEvent: {}
+[3.719009] (-) TimerEvent: {}
+[3.819821] (-) TimerEvent: {}
+[3.920579] (-) TimerEvent: {}
+[4.021057] (-) TimerEvent: {}
+[4.121528] (-) TimerEvent: {}
+[4.222380] (-) TimerEvent: {}
+[4.323225] (-) TimerEvent: {}
+[4.424064] (-) TimerEvent: {}
+[4.524911] (-) TimerEvent: {}
+[4.625357] (-) TimerEvent: {}
+[4.725722] (-) TimerEvent: {}
+[4.825056] (camera_publisher) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/camera_publisher.dir/build.make:76: CMakeFiles/camera_publisher.dir/src/camera_publisher.cpp.o] Error 1\n'}
+[4.825499] (camera_publisher) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/camera_publisher.dir/all] Error 2\n'}
+[4.825763] (camera_publisher) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.825926] (-) TimerEvent: {}
+[4.829930] (camera_publisher) CommandEnded: {'returncode': 2}
+[4.913759] (camera_publisher) JobEnded: {'identifier': 'camera_publisher', 'rc': 2}
+[4.924997] (-) EventReactorShutdown: {}

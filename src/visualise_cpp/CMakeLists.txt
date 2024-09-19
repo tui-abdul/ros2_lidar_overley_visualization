@@ -26,6 +26,8 @@ ament_target_dependencies(camera_publisher
   message_filters
 )
 
+target_link_libraries(camera_publisher ${OpenCV_LIBS} yaml-cpp)
+
 install(TARGETS
   camera_publisher
   DESTINATION lib/${PROJECT_NAME})

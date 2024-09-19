@@ -1,0 +1,11 @@
+[0.018s] Invoking command in '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher -- -j28 -l28
+[0.096s] [35m[1mConsolidate compiler generated dependencies of target camera_publisher[0m
+[0.139s] [ 50%] [32mBuilding CXX object CMakeFiles/camera_publisher.dir/src/camera_publisher.cpp.o[0m
+[3.615s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:[m[K In constructor ‘[01m[KCameraSubscriber::CameraSubscriber()[m[K’:
+[3.615s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:47:61:[m[K [01;31m[Kerror: [m[K‘[01m[KCallback[m[K’ is not a member of ‘[01m[KCameraSubscriber[m[K’
+[3.615s]    47 |         sync->registerCallback(std::bind(&CameraSubscriber::[01;31m[KCallback[m[K, this, std::placeholders::_1, std::placeholders::_2));
+[3.615s]       |                                                             [01;31m[K^~~~~~~~[m[K
+[8.491s] gmake[2]: *** [CMakeFiles/camera_publisher.dir/build.make:76: CMakeFiles/camera_publisher.dir/src/camera_publisher.cpp.o] Error 1
+[8.492s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/camera_publisher.dir/all] Error 2
+[8.492s] gmake: *** [Makefile:146: all] Error 2
+[8.496s] Invoked command in '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher -- -j28 -l28

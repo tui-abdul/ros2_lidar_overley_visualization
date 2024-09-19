@@ -1,0 +1,34 @@
+[0.024s] Invoking command in '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher -- -j28 -l28
+[0.100s] [35m[1mConsolidate compiler generated dependencies of target camera_publisher[0m
+[0.138s] [ 50%] [32mBuilding CXX object CMakeFiles/camera_publisher.dir/src/camera_publisher.cpp.o[0m
+[3.345s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:13:26:[m[K [01;31m[Kerror: [m[K‘[01m[KSubscriber[m[K’ in namespace ‘[01m[Kmessage_filters[m[K’ does not name a template type
+[3.345s]    13 |         message_filters::[01;31m[KSubscriber[m[K<sensor_msgs::msg::Image> image_sub_;
+[3.346s]       |                          [01;31m[K^~~~~~~~~~[m[K
+[3.346s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:14:26:[m[K [01;31m[Kerror: [m[K‘[01m[KSubscriber[m[K’ in namespace ‘[01m[Kmessage_filters[m[K’ does not name a template type
+[3.346s]    14 |         message_filters::[01;31m[KSubscriber[m[K<sensor_msgs::msg::PointCloud2> pointcloud_sub_;
+[3.346s]       |                          [01;31m[K^~~~~~~~~~[m[K
+[3.348s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:46:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[3.349s]    46 |     }
+[3.349s]       |      [01;31m[K^[m[K
+[3.349s]       |      [32m[K;[m[K
+[3.355s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:[m[K In constructor ‘[01m[KCameraSubscriber::CameraSubscriber()[m[K’:
+[3.355s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:36:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_sub_[m[K’ was not declared in this scope
+[3.355s]    36 |         [01;31m[Kimage_sub_[m[K.subscribe(this, "/my_camera/pylon_ros2_camera_node/image_raw", rmw_qos_profile_sensor_data);
+[3.355s]       |         [01;31m[K^~~~~~~~~~[m[K
+[3.361s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:37:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpointcloud_sub_[m[K’ was not declared in this scope
+[3.361s]    37 |         [01;31m[Kpointcloud_sub_[m[K.subscribe(this, "/ouster/points", rmw_qos_profile_sensor_data);
+[3.361s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.423s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:44:62:[m[K [01;31m[Kerror: [m[K‘[01m[KsyncCallback[m[K’ is not a member of ‘[01m[KCameraSubscriber[m[K’
+[3.423s]    44 |         sync_->registerCallback(std::bind(&CameraSubscriber::[01;31m[KsyncCallback[m[K, this, std::placeholders::_1, std::placeholders::_2));
+[3.423s]       |                                                              [01;31m[K^~~~~~~~~~~~[m[K
+[3.423s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:[m[K At global scope:
+[3.424s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:48:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+[3.424s]    48 | [01;31m[Kprivate[m[K:
+[3.424s]       | [01;31m[K^~~~~~~[m[K
+[3.424s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:71:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[3.424s]    71 | [01;31m[K}[m[K;
+[3.424s]       | [01;31m[K^[m[K
+[4.959s] gmake[2]: *** [CMakeFiles/camera_publisher.dir/build.make:76: CMakeFiles/camera_publisher.dir/src/camera_publisher.cpp.o] Error 1
+[4.959s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/camera_publisher.dir/all] Error 2
+[4.960s] gmake: *** [Makefile:146: all] Error 2
+[4.965s] Invoked command in '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher -- -j28 -l28

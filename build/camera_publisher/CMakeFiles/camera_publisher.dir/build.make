@@ -129,6 +129,7 @@ camera_publisher: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.4.5.4d
 camera_publisher: /usr/lib/x86_64-linux-gnu/libopencv_wechat_qrcode.so.4.5.4d
 camera_publisher: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.4.5.4d
 camera_publisher: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.4.5.4d
+camera_publisher: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.7.0
 camera_publisher: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
 camera_publisher: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
 camera_publisher: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so

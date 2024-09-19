@@ -1,0 +1,9 @@
+[0.018s] Invoking command in '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher -- -j28 -l28
+[0.139s] [ 50%] [32mBuilding CXX object CMakeFiles/camera_publisher.dir/src/camera_publisher.cpp.o[0m
+[9.511s] [100%] [32m[1mLinking CXX executable camera_publisher[0m
+[9.629s] /usr/bin/ld: cannot find -lmessage_filters: No such file or directory
+[9.764s] collect2: error: ld returned 1 exit status
+[9.767s] gmake[2]: *** [CMakeFiles/camera_publisher.dir/build.make:232: camera_publisher] Error 1
+[9.768s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/camera_publisher.dir/all] Error 2
+[9.768s] gmake: *** [Makefile:146: all] Error 2
+[9.771s] Invoked command in '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher -- -j28 -l28
