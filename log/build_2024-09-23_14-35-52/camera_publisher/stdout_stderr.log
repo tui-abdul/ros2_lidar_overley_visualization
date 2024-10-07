@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target camera_publisher[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/camera_publisher.dir/src/camera_publisher.cpp.o[0m
+[01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:[m[K In member function ‘[01m[Kvoid CameraSubscriber::Callback(const ConstSharedPtr&, const ConstSharedPtr&)[m[K’:
+[01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:61:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatrix_coefficients[m[K’ was not declared in this scope; did you mean ‘[01m[Kmatrix_coefficients_mat[m[K’?
+   61 |             std::cout<< "matrix " << [01;31m[Kmatrix_coefficients[m[K << std::endl;
+      |                                      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                                      [32m[Kmatrix_coefficients_mat[m[K
+gmake[2]: *** [CMakeFiles/camera_publisher.dir/build.make:76: CMakeFiles/camera_publisher.dir/src/camera_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/camera_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

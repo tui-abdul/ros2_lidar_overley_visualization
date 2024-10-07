@@ -1,0 +1,661 @@
+[0.013s] Invoking command in '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher -- -j28 -l28
+[0.083s] [35m[1mConsolidate compiler generated dependencies of target camera_publisher[0m
+[0.121s] [ 50%] [32mBuilding CXX object CMakeFiles/camera_publisher.dir/src/camera_publisher.cpp.o[0m
+[3.434s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:[m[K In member function ‘[01m[Kvoid CameraSubscriber::Callback(const ConstSharedPtr&, const ConstSharedPtr&)[m[K’:
+[3.434s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:61:91:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator<<[m[K’ (operand types are ‘[01m[Kcv::Mat[m[K’ and ‘[01m[K<unresolved overloaded function type>[m[K’)
+[3.435s]    61 |             std::cout<< "matrix " << matrix_coefficients_mat, [01;31m[Kdistortion_coefficients_mat << std::endl[m[K;
+[3.435s]       |                                                               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[3.435s] In file included from [01m[K/usr/include/c++/10/memory:84[m[K,
+[3.435s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[3.435s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:1[m[K:
+[3.435s] [01m[K/usr/include/c++/10/bits/shared_ptr.h:69:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Ch, class _Tr, class _Tp, __gnu_cxx::_Lock_policy _Lp> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, const std::__shared_ptr<_Tp, _Lp>&)[m[K’
+[3.435s]    69 |     [01;36m[Koperator[m[K<<(std::basic_ostream<_Ch, _Tr>& __os,
+[3.436s]       |     [01;36m[K^~~~~~~~[m[K
+[3.436s] [01m[K/usr/include/c++/10/bits/shared_ptr.h:69:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.436s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:61:99:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::Mat[m[K’ is not derived from ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’
+[3.436s]    61 |             std::cout<< "matrix " << matrix_coefficients_mat, distortion_coefficients_mat << std::[01;36m[Kendl[m[K;
+[3.436s]       |                                                                                                   [01;36m[K^~~~[m[K
+[3.437s] In file included from [01m[K/usr/include/c++/10/bits/basic_string.h:48[m[K,
+[3.437s]                  from [01m[K/usr/include/c++/10/string:55[m[K,
+[3.437s]                  from [01m[K/usr/include/c++/10/stdexcept:39[m[K,
+[3.437s]                  from [01m[K/usr/include/c++/10/system_error:41[m[K,
+[3.437s]                  from [01m[K/usr/include/c++/10/mutex:42[m[K,
+[3.437s]                  from [01m[K/usr/include/c++/10/future:38[m[K,
+[3.438s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[3.438s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.438s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:1[m[K:
+[3.438s] [01m[K/usr/include/c++/10/string_view:621:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, std::basic_string_view<_CharT, _Traits>)[m[K’
+[3.438s]   621 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os,
+[3.438s]       |     [01;36m[K^~~~~~~~[m[K
+[3.438s] [01m[K/usr/include/c++/10/string_view:621:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.439s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:61:99:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::Mat[m[K’ is not derived from ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’
+[3.439s]    61 |             std::cout<< "matrix " << matrix_coefficients_mat, distortion_coefficients_mat << std::[01;36m[Kendl[m[K;
+[3.439s]       |                                                                                                   [01;36m[K^~~~[m[K
+[3.439s] In file included from [01m[K/usr/include/c++/10/string:55[m[K,
+[3.440s]                  from [01m[K/usr/include/c++/10/stdexcept:39[m[K,
+[3.440s]                  from [01m[K/usr/include/c++/10/system_error:41[m[K,
+[3.441s]                  from [01m[K/usr/include/c++/10/mutex:42[m[K,
+[3.441s]                  from [01m[K/usr/include/c++/10/future:38[m[K,
+[3.441s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[3.442s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.442s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:1[m[K:
+[3.442s] [01m[K/usr/include/c++/10/bits/basic_string.h:6480:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+[3.442s]  6480 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os,
+[3.442s]       |     [01;36m[K^~~~~~~~[m[K
+[3.442s] [01m[K/usr/include/c++/10/bits/basic_string.h:6480:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.442s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:61:99:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::Mat[m[K’ is not derived from ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’
+[3.442s]    61 |             std::cout<< "matrix " << matrix_coefficients_mat, distortion_coefficients_mat << std::[01;36m[Kendl[m[K;
+[3.442s]       |                                                                                                   [01;36m[K^~~~[m[K
+[3.442s] In file included from [01m[K/usr/include/c++/10/mutex:42[m[K,
+[3.442s]                  from [01m[K/usr/include/c++/10/future:38[m[K,
+[3.442s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[3.442s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.442s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:1[m[K:
+[3.442s] [01m[K/usr/include/c++/10/system_error:262:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, const std::error_code&)[m[K’
+[3.443s]   262 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+[3.443s]       |     [01;36m[K^~~~~~~~[m[K
+[3.443s] [01m[K/usr/include/c++/10/system_error:262:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.443s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:61:99:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::Mat[m[K’ is not derived from ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’
+[3.443s]    61 |             std::cout<< "matrix " << matrix_coefficients_mat, distortion_coefficients_mat << std::[01;36m[Kendl[m[K;
+[3.443s]       |                                                                                                   [01;36m[K^~~~[m[K
+[3.443s] In file included from [01m[K/usr/include/c++/10/future:39[m[K,
+[3.443s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[3.443s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.443s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:1[m[K:
+[3.443s] [01m[K/usr/include/c++/10/thread:348:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, std::thread::id)[m[K’
+[3.443s]   348 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, thread::id __id)
+[3.444s]       |     [01;36m[K^~~~~~~~[m[K
+[3.444s] [01m[K/usr/include/c++/10/thread:348:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.444s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:61:99:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::Mat[m[K’ is not derived from ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’
+[3.444s]    61 |             std::cout<< "matrix " << matrix_coefficients_mat, distortion_coefficients_mat << std::[01;36m[Kendl[m[K;
+[3.444s]       |                                                                                                   [01;36m[K^~~~[m[K
+[3.444s] In file included from [01m[K/usr/include/c++/10/iostream:39[m[K,
+[3.445s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+[3.445s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.445s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.445s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.445s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:1[m[K:
+[3.445s] [01m[K/usr/include/c++/10/ostream:506:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, _CharT)[m[K’
+[3.445s]   506 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+[3.445s]       |     [01;36m[K^~~~~~~~[m[K
+[3.446s] [01m[K/usr/include/c++/10/ostream:506:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.446s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:61:99:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::Mat[m[K’ is not derived from ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’
+[3.446s]    61 |             std::cout<< "matrix " << matrix_coefficients_mat, distortion_coefficients_mat << std::[01;36m[Kendl[m[K;
+[3.446s]       |                                                                                                   [01;36m[K^~~~[m[K
+[3.446s] In file included from [01m[K/usr/include/c++/10/iostream:39[m[K,
+[3.446s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+[3.446s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.447s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.447s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.447s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:1[m[K:
+[3.447s] [01m[K/usr/include/c++/10/ostream:511:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, char)[m[K’
+[3.447s]   511 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+[3.447s]       |     [01;36m[K^~~~~~~~[m[K
+[3.447s] [01m[K/usr/include/c++/10/ostream:511:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.448s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:61:99:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::Mat[m[K’ is not derived from ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’
+[3.448s]    61 |             std::cout<< "matrix " << matrix_coefficients_mat, distortion_coefficients_mat << std::[01;36m[Kendl[m[K;
+[3.448s]       |                                                                                                   [01;36m[K^~~~[m[K
+[3.448s] In file included from [01m[K/usr/include/c++/10/iostream:39[m[K,
+[3.448s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+[3.448s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.449s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.449s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.449s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:1[m[K:
+[3.449s] [01m[K/usr/include/c++/10/ostream:517:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)[m[K’
+[3.449s]   517 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, char __c)
+[3.449s]       |     [01;36m[K^~~~~~~~[m[K
+[3.449s] [01m[K/usr/include/c++/10/ostream:517:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.450s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:61:99:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::Mat[m[K’ is not derived from ‘[01m[Kstd::basic_ostream<char, _Traits>[m[K’
+[3.450s]    61 |             std::cout<< "matrix " << matrix_coefficients_mat, distortion_coefficients_mat << std::[01;36m[Kendl[m[K;
+[3.450s]       |                                                                                                   [01;36m[K^~~~[m[K
+[3.450s] In file included from [01m[K/usr/include/c++/10/iostream:39[m[K,
+[3.450s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+[3.450s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.450s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.450s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.451s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:1[m[K:
+[3.451s] [01m[K/usr/include/c++/10/ostream:523:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)[m[K’
+[3.451s]   523 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, signed char __c)
+[3.451s]       |     [01;36m[K^~~~~~~~[m[K
+[3.451s] [01m[K/usr/include/c++/10/ostream:523:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.451s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:61:99:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::Mat[m[K’ is not derived from ‘[01m[Kstd::basic_ostream<char, _Traits>[m[K’
+[3.452s]    61 |             std::cout<< "matrix " << matrix_coefficients_mat, distortion_coefficients_mat << std::[01;36m[Kendl[m[K;
+[3.452s]       |                                                                                                   [01;36m[K^~~~[m[K
+[3.452s] In file included from [01m[K/usr/include/c++/10/iostream:39[m[K,
+[3.452s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+[3.452s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.452s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.452s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.453s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:1[m[K:
+[3.453s] [01m[K/usr/include/c++/10/ostream:528:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)[m[K’
+[3.453s]   528 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+[3.453s]       |     [01;36m[K^~~~~~~~[m[K
+[3.453s] [01m[K/usr/include/c++/10/ostream:528:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.453s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:61:99:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::Mat[m[K’ is not derived from ‘[01m[Kstd::basic_ostream<char, _Traits>[m[K’
+[3.453s]    61 |             std::cout<< "matrix " << matrix_coefficients_mat, distortion_coefficients_mat << std::[01;36m[Kendl[m[K;
+[3.454s]       |                                                                                                   [01;36m[K^~~~[m[K
+[3.454s] In file included from [01m[K/usr/include/c++/10/iostream:39[m[K,
+[3.454s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+[3.454s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.454s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.454s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.454s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:1[m[K:
+[3.455s] [01m[K/usr/include/c++/10/ostream:589:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, const _CharT*)[m[K’
+[3.455s]   589 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+[3.455s]       |     [01;36m[K^~~~~~~~[m[K
+[3.455s] [01m[K/usr/include/c++/10/ostream:589:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.455s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:61:99:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::Mat[m[K’ is not derived from ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’
+[3.455s]    61 |             std::cout<< "matrix " << matrix_coefficients_mat, distortion_coefficients_mat << std::[01;36m[Kendl[m[K;
+[3.456s]       |                                                                                                   [01;36m[K^~~~[m[K
+[3.456s] In file included from [01m[K/usr/include/c++/10/ostream:784[m[K,
+[3.456s]                  from [01m[K/usr/include/c++/10/iostream:39[m[K,
+[3.456s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+[3.456s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.456s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.456s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.457s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:1[m[K:
+[3.457s] [01m[K/usr/include/c++/10/bits/ostream.tcc:321:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, const char*)[m[K’
+[3.457s]   321 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+[3.457s]       |     [01;36m[K^~~~~~~~[m[K
+[3.457s] [01m[K/usr/include/c++/10/bits/ostream.tcc:321:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.457s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:61:99:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::Mat[m[K’ is not derived from ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’
+[3.457s]    61 |             std::cout<< "matrix " << matrix_coefficients_mat, distortion_coefficients_mat << std::[01;36m[Kendl[m[K;
+[3.457s]       |                                                                                                   [01;36m[K^~~~[m[K
+[3.458s] In file included from [01m[K/usr/include/c++/10/iostream:39[m[K,
+[3.458s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+[3.458s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.458s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.458s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.458s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:1[m[K:
+[3.458s] [01m[K/usr/include/c++/10/ostream:606:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)[m[K’
+[3.458s]   606 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, const char* __s)
+[3.458s]       |     [01;36m[K^~~~~~~~[m[K
+[3.458s] [01m[K/usr/include/c++/10/ostream:606:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.458s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:61:99:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::Mat[m[K’ is not derived from ‘[01m[Kstd::basic_ostream<char, _Traits>[m[K’
+[3.459s]    61 |             std::cout<< "matrix " << matrix_coefficients_mat, distortion_coefficients_mat << std::[01;36m[Kendl[m[K;
+[3.459s]       |                                                                                                   [01;36m[K^~~~[m[K
+[3.459s] In file included from [01m[K/usr/include/c++/10/iostream:39[m[K,
+[3.459s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+[3.459s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.459s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.459s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.459s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:1[m[K:
+[3.459s] [01m[K/usr/include/c++/10/ostream:619:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)[m[K’
+[3.459s]   619 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+[3.459s]       |     [01;36m[K^~~~~~~~[m[K
+[3.460s] [01m[K/usr/include/c++/10/ostream:619:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.460s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:61:99:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::Mat[m[K’ is not derived from ‘[01m[Kstd::basic_ostream<char, _Traits>[m[K’
+[3.460s]    61 |             std::cout<< "matrix " << matrix_coefficients_mat, distortion_coefficients_mat << std::[01;36m[Kendl[m[K;
+[3.460s]       |                                                                                                   [01;36m[K^~~~[m[K
+[3.460s] In file included from [01m[K/usr/include/c++/10/iostream:39[m[K,
+[3.461s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+[3.461s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.461s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.461s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.461s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:1[m[K:
+[3.461s] [01m[K/usr/include/c++/10/ostream:624:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)[m[K’
+[3.461s]   624 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+[3.462s]       |     [01;36m[K^~~~~~~~[m[K
+[3.462s] [01m[K/usr/include/c++/10/ostream:624:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.462s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:61:99:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::Mat[m[K’ is not derived from ‘[01m[Kstd::basic_ostream<char, _Traits>[m[K’
+[3.462s]    61 |             std::cout<< "matrix " << matrix_coefficients_mat, distortion_coefficients_mat << std::[01;36m[Kendl[m[K;
+[3.462s]       |                                                                                                   [01;36m[K^~~~[m[K
+[3.462s] In file included from [01m[K/usr/include/c++/10/iostream:39[m[K,
+[3.462s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+[3.462s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.462s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.462s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.462s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:1[m[K:
+[3.463s] [01m[K/usr/include/c++/10/ostream:773:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&)[m[K’
+[3.463s]   773 |     [01;36m[Koperator[m[K<<(_Ostream&& __os, const _Tp& __x)
+[3.463s]       |     [01;36m[K^~~~~~~~[m[K
+[3.463s] [01m[K/usr/include/c++/10/ostream:773:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.463s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:61:99:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Tp[m[K’
+[3.463s]    61 |             std::cout<< "matrix " << matrix_coefficients_mat, distortion_coefficients_mat << std::[01;36m[Kendl[m[K;
+[3.463s]       |                                                                                                   [01;36m[K^~~~[m[K
+[3.463s] In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:19[m[K,
+[3.464s]                  from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:15[m[K,
+[3.464s]                  from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:9[m[K,
+[3.464s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+[3.464s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+[3.464s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+[3.464s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+[3.464s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.465s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.465s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.465s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.465s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.465s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.465s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.465s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.465s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.466s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:1[m[K:
+[3.466s] [01m[K/usr/include/c++/10/iomanip:79:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, std::_Resetiosflags)[m[K’
+[3.466s]    79 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Resetiosflags __f)
+[3.466s]       |     [01;36m[K^~~~~~~~[m[K
+[3.466s] [01m[K/usr/include/c++/10/iomanip:79:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.466s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:61:99:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::Mat[m[K’ is not derived from ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’
+[3.466s]    61 |             std::cout<< "matrix " << matrix_coefficients_mat, distortion_coefficients_mat << std::[01;36m[Kendl[m[K;
+[3.466s]       |                                                                                                   [01;36m[K^~~~[m[K
+[3.467s] In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:19[m[K,
+[3.467s]                  from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:15[m[K,
+[3.467s]                  from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:9[m[K,
+[3.467s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+[3.467s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+[3.467s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+[3.467s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+[3.467s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.467s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.467s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.467s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.467s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.468s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:1[m[K:
+[3.468s] [01m[K/usr/include/c++/10/iomanip:109:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, std::_Setiosflags)[m[K’
+[3.468s]   109 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Setiosflags __f)
+[3.468s]       |     [01;36m[K^~~~~~~~[m[K
+[3.468s] [01m[K/usr/include/c++/10/iomanip:109:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.468s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:61:99:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::Mat[m[K’ is not derived from ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’
+[3.468s]    61 |             std::cout<< "matrix " << matrix_coefficients_mat, distortion_coefficients_mat << std::[01;36m[Kendl[m[K;
+[3.468s]       |                                                                                                   [01;36m[K^~~~[m[K
+[3.468s] In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:19[m[K,
+[3.468s]                  from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:15[m[K,
+[3.468s]                  from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:9[m[K,
+[3.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+[3.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+[3.469s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+[3.469s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+[3.469s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.469s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.469s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.469s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.469s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.469s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.469s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.469s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.469s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.469s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:1[m[K:
+[3.469s] [01m[K/usr/include/c++/10/iomanip:143:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, std::_Setbase)[m[K’
+[3.469s]   143 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Setbase __f)
+[3.469s]       |     [01;36m[K^~~~~~~~[m[K
+[3.469s] [01m[K/usr/include/c++/10/iomanip:143:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.470s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:61:99:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::Mat[m[K’ is not derived from ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’
+[3.470s]    61 |             std::cout<< "matrix " << matrix_coefficients_mat, distortion_coefficients_mat << std::[01;36m[Kendl[m[K;
+[3.470s]       |                                                                                                   [01;36m[K^~~~[m[K
+[3.470s] In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:19[m[K,
+[3.470s]                  from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:15[m[K,
+[3.470s]                  from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:9[m[K,
+[3.470s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+[3.470s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+[3.470s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+[3.470s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+[3.470s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.470s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.470s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.470s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.470s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.470s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.470s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.471s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.471s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.471s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:1[m[K:
+[3.471s] [01m[K/usr/include/c++/10/iomanip:178:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, std::_Setfill<_CharT>)[m[K’
+[3.471s]   178 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Setfill<_CharT> __f)
+[3.471s]       |     [01;36m[K^~~~~~~~[m[K
+[3.471s] [01m[K/usr/include/c++/10/iomanip:178:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.471s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:61:99:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::Mat[m[K’ is not derived from ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’
+[3.471s]    61 |             std::cout<< "matrix " << matrix_coefficients_mat, distortion_coefficients_mat << std::[01;36m[Kendl[m[K;
+[3.471s]       |                                                                                                   [01;36m[K^~~~[m[K
+[3.471s] In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:19[m[K,
+[3.471s]                  from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:15[m[K,
+[3.471s]                  from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:9[m[K,
+[3.471s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+[3.471s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+[3.471s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+[3.471s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+[3.472s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.472s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.472s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.472s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.472s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.472s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.472s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.472s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.472s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.472s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:1[m[K:
+[3.472s] [01m[K/usr/include/c++/10/iomanip:208:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, std::_Setprecision)[m[K’
+[3.472s]   208 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Setprecision __f)
+[3.472s]       |     [01;36m[K^~~~~~~~[m[K
+[3.472s] [01m[K/usr/include/c++/10/iomanip:208:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.472s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:61:99:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::Mat[m[K’ is not derived from ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’
+[3.472s]    61 |             std::cout<< "matrix " << matrix_coefficients_mat, distortion_coefficients_mat << std::[01;36m[Kendl[m[K;
+[3.473s]       |                                                                                                   [01;36m[K^~~~[m[K
+[3.473s] In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:19[m[K,
+[3.473s]                  from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:15[m[K,
+[3.473s]                  from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:9[m[K,
+[3.473s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+[3.473s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+[3.473s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+[3.473s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+[3.473s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.473s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.473s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.473s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.473s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.473s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.473s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.474s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.474s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.474s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:1[m[K:
+[3.474s] [01m[K/usr/include/c++/10/iomanip:238:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, std::_Setw)[m[K’
+[3.474s]   238 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Setw __f)
+[3.474s]       |     [01;36m[K^~~~~~~~[m[K
+[3.474s] [01m[K/usr/include/c++/10/iomanip:238:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.474s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:61:99:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::Mat[m[K’ is not derived from ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’
+[3.474s]    61 |             std::cout<< "matrix " << matrix_coefficients_mat, distortion_coefficients_mat << std::[01;36m[Kendl[m[K;
+[3.474s]       |                                                                                                   [01;36m[K^~~~[m[K
+[3.474s] In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:19[m[K,
+[3.474s]                  from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:15[m[K,
+[3.474s]                  from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:9[m[K,
+[3.474s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+[3.474s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+[3.475s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+[3.475s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+[3.475s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.475s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.475s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.475s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.475s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.475s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.475s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.475s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.475s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.475s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:1[m[K:
+[3.475s] [01m[K/usr/include/c++/10/iomanip:311:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _MoneyT> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, std::_Put_money<_MoneyT>)[m[K’
+[3.475s]   311 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Put_money<_MoneyT> __f)
+[3.475s]       |     [01;36m[K^~~~~~~~[m[K
+[3.475s] [01m[K/usr/include/c++/10/iomanip:311:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.475s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:61:99:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::Mat[m[K’ is not derived from ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’
+[3.476s]    61 |             std::cout<< "matrix " << matrix_coefficients_mat, distortion_coefficients_mat << std::[01;36m[Kendl[m[K;
+[3.476s]       |                                                                                                   [01;36m[K^~~~[m[K
+[3.476s] In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:19[m[K,
+[3.476s]                  from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:15[m[K,
+[3.476s]                  from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:9[m[K,
+[3.476s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+[3.476s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+[3.476s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+[3.476s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+[3.476s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.476s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.476s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.476s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.476s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.476s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.476s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.476s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.477s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.477s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:1[m[K:
+[3.477s] [01m[K/usr/include/c++/10/iomanip:363:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::operator<<(std::basic_ostream<_Ch, _Tr>&, std::_Put_time<_CharT>)[m[K’
+[3.477s]   363 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Put_time<_CharT> __f)
+[3.477s]       |     [01;36m[K^~~~~~~~[m[K
+[3.477s] [01m[K/usr/include/c++/10/iomanip:363:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.477s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:61:99:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::Mat[m[K’ is not derived from ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’
+[3.477s]    61 |             std::cout<< "matrix " << matrix_coefficients_mat, distortion_coefficients_mat << std::[01;36m[Kendl[m[K;
+[3.477s]       |                                                                                                   [01;36m[K^~~~[m[K
+[3.477s] In file included from [01m[K/usr/include/opencv4/opencv2/core/hal/interface.h:15[m[K,
+[3.477s]                  from [01m[K/usr/include/opencv4/opencv2/core/cvdef.h:190[m[K,
+[3.477s]                  from [01m[K/usr/include/opencv4/opencv2/core.hpp:52[m[K,
+[3.477s]                  from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+[3.477s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+[3.477s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:3[m[K:
+[3.477s] [01m[K/usr/include/c++/10/cstddef:125:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IntegerType> constexpr std::__byte_op_t<_IntegerType> std::operator<<(std::byte, _IntegerType)[m[K’
+[3.477s]   125 |     [01;36m[Koperator[m[K<<(byte __b, _IntegerType __shift) noexcept
+[3.477s]       |     [01;36m[K^~~~~~~~[m[K
+[3.477s] [01m[K/usr/include/c++/10/cstddef:125:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.477s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:61:99:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_IntegerType[m[K’
+[3.478s]    61 |             std::cout<< "matrix " << matrix_coefficients_mat, distortion_coefficients_mat << std::[01;36m[Kendl[m[K;
+[3.478s]       |                                                                                                   [01;36m[K^~~~[m[K
+[3.478s] In file included from [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:47[m[K,
+[3.478s]                  from [01m[K/usr/include/opencv4/opencv2/core.hpp:3306[m[K,
+[3.478s]                  from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+[3.478s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+[3.478s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:3[m[K:
+[3.478s] [01m[K/usr/include/c++/10/complex:554:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::complex<_Tp>&)[m[K’
+[3.478s]   554 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, const complex<_Tp>& __x)
+[3.478s]       |     [01;36m[K^~~~~~~~[m[K
+[3.478s] [01m[K/usr/include/c++/10/complex:554:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.478s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:61:99:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::Mat[m[K’ is not derived from ‘[01m[Kstd::basic_ostream<_CharT, _Traits>[m[K’
+[3.478s]    61 |             std::cout<< "matrix " << matrix_coefficients_mat, distortion_coefficients_mat << std::[01;36m[Kendl[m[K;
+[3.478s]       |                                                                                                   [01;36m[K^~~~[m[K
+[3.478s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:56[m[K,
+[3.478s]                  from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+[3.478s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+[3.478s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:3[m[K:
+[3.478s] [01m[K/usr/include/opencv4/opencv2/core/matx.hpp:947:33:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _T2, int m, int n> cv::MatxCommaInitializer<_Tp, m, n> cv::operator<<(const cv::Matx<_Tp, m, n>&, _T2)[m[K’
+[3.478s]   947 | MatxCommaInitializer<_Tp, m, n> [01;36m[Koperator[m[K << (const Matx<_Tp, m, n>& mtx, _T2 val)
+[3.478s]       |                                 [01;36m[K^~~~~~~~[m[K
+[3.478s] [01m[K/usr/include/opencv4/opencv2/core/matx.hpp:947:33:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.478s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:61:99:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::Mat[m[K’ is not derived from ‘[01m[Kconst cv::Matx<_Tp, m, n>[m[K’
+[3.478s]    61 |             std::cout<< "matrix " << matrix_coefficients_mat, distortion_coefficients_mat << std::[01;36m[Kendl[m[K;
+[3.478s]       |                                                                                                   [01;36m[K^~~~[m[K
+[3.479s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:56[m[K,
+[3.479s]                  from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+[3.479s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+[3.479s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:3[m[K:
+[3.479s] [01m[K/usr/include/opencv4/opencv2/core/matx.hpp:1160:30:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _T2, int cn> cv::VecCommaInitializer<_Tp, cn> cv::operator<<(const cv::Vec<_Tp, n>&, _T2)[m[K’
+[3.479s]  1160 | VecCommaInitializer<_Tp, cn> [01;36m[Koperator[m[K << (const Vec<_Tp, cn>& vec, _T2 val)
+[3.479s]       |                              [01;36m[K^~~~~~~~[m[K
+[3.479s] [01m[K/usr/include/opencv4/opencv2/core/matx.hpp:1160:30:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.479s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:61:99:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::Mat[m[K’ is not derived from ‘[01m[Kconst cv::Vec<_Tp, n>[m[K’
+[3.479s]    61 |             std::cout<< "matrix " << matrix_coefficients_mat, distortion_coefficients_mat << std::[01;36m[Kendl[m[K;
+[3.479s]       |                                                                                                   [01;36m[K^~~~[m[K
+[3.479s] In file included from [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:3764[m[K,
+[3.479s]                  from [01m[K/usr/include/opencv4/opencv2/core.hpp:58[m[K,
+[3.479s]                  from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+[3.479s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+[3.479s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:3[m[K:
+[3.479s] [01m[K/usr/include/opencv4/opencv2/core/mat.inl.hpp:2997:27:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class T2> cv::MatCommaInitializer_<_Tp> cv::operator<<(const cv::Mat_<_Tp>&, T2)[m[K’
+[3.479s]  2997 | MatCommaInitializer_<_Tp> [01;36m[Koperator[m[K << (const Mat_<_Tp>& m, T2 val)
+[3.479s]       |                           [01;36m[K^~~~~~~~[m[K
+[3.479s] [01m[K/usr/include/opencv4/opencv2/core/mat.inl.hpp:2997:27:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.479s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:61:99:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::Mat[m[K’ is not derived from ‘[01m[Kconst cv::Mat_<_Tp>[m[K’
+[3.479s]    61 |             std::cout<< "matrix " << matrix_coefficients_mat, distortion_coefficients_mat << std::[01;36m[Kendl[m[K;
+[3.479s]       |                                                                                                   [01;36m[K^~~~[m[K
+[3.479s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:59[m[K,
+[3.480s]                  from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+[3.480s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+[3.480s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:3[m[K:
+[3.480s] [01m[K/usr/include/opencv4/opencv2/core/persistence.hpp:804:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::FileStorage& cv::operator<<(cv::FileStorage&, const String&)[m[K’
+[3.480s]   804 | CV_EXPORTS FileStorage& [01;36m[Koperator[m[K << (FileStorage& fs, const String& str);
+[3.480s]       |                         [01;36m[K^~~~~~~~[m[K
+[3.480s] [01m[K/usr/include/opencv4/opencv2/core/persistence.hpp:804:51:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kcv::Mat[m[K’ to ‘[01m[Kcv::FileStorage&[m[K’
+[3.480s]   804 | CV_EXPORTS FileStorage& operator << ([01;36m[KFileStorage& fs[m[K, const String& str);
+[3.480s]       |                                      [01;36m[K~~~~~~~~~~~~~^~[m[K
+[3.480s] [01m[K/usr/include/opencv4/opencv2/core/persistence.hpp:1219:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> cv::FileStorage& cv::operator<<(cv::FileStorage&, const _Tp&)[m[K’
+[3.480s]  1219 | FileStorage& [01;36m[Koperator[m[K << (FileStorage& fs, const _Tp& value)
+[3.480s]       |              [01;36m[K^~~~~~~~[m[K
+[3.480s] [01m[K/usr/include/opencv4/opencv2/core/persistence.hpp:1219:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.480s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:61:99:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Tp[m[K’
+[3.480s]    61 |             std::cout<< "matrix " << matrix_coefficients_mat, distortion_coefficients_mat << std::[01;36m[Kendl[m[K;
+[3.480s]       |                                                                                                   [01;36m[K^~~~[m[K
+[3.480s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:59[m[K,
+[3.480s]                  from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+[3.480s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+[3.480s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:3[m[K:
+[3.480s] [01m[K/usr/include/opencv4/opencv2/core/persistence.hpp:1234:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::FileStorage& cv::operator<<(cv::FileStorage&, const char*)[m[K’
+[3.480s]  1234 | FileStorage& [01;36m[Koperator[m[K << (FileStorage& fs, const char* str)
+[3.480s]       |              [01;36m[K^~~~~~~~[m[K
+[3.480s] [01m[K/usr/include/opencv4/opencv2/core/persistence.hpp:1234:40:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kcv::Mat[m[K’ to ‘[01m[Kcv::FileStorage&[m[K’
+[3.480s]  1234 | FileStorage& operator << ([01;36m[KFileStorage& fs[m[K, const char* str)
+[3.481s]       |                           [01;36m[K~~~~~~~~~~~~~^~[m[K
+[3.481s] [01m[K/usr/include/opencv4/opencv2/core/persistence.hpp:1242:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::FileStorage& cv::operator<<(cv::FileStorage&, char*)[m[K’
+[3.481s]  1242 | FileStorage& [01;36m[Koperator[m[K << (FileStorage& fs, char* value)
+[3.481s]       |              [01;36m[K^~~~~~~~[m[K
+[3.481s] [01m[K/usr/include/opencv4/opencv2/core/persistence.hpp:1242:40:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kcv::Mat[m[K’ to ‘[01m[Kcv::FileStorage&[m[K’
+[3.481s]  1242 | FileStorage& operator << ([01;36m[KFileStorage& fs[m[K, char* value)
+[3.481s]       |                           [01;36m[K~~~~~~~~~~~~~^~[m[K
+[3.481s] In file included from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+[3.481s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+[3.481s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:3[m[K:
+[3.481s] [01m[K/usr/include/opencv4/opencv2/core.hpp:3058:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::String& cv::operator<<(cv::String&, cv::Ptr<cv::Formatted>)[m[K’
+[3.481s]  3058 | String& [01;36m[Koperator[m[K << (String& out, Ptr<Formatted> fmtd)
+[3.481s]       |         [01;36m[K^~~~~~~~[m[K
+[3.481s] [01m[K/usr/include/opencv4/opencv2/core.hpp:3058:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kcv::Mat[m[K’ to ‘[01m[Kcv::String&[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>&[m[K’}
+[3.481s]  3058 | String& operator << ([01;36m[KString& out[m[K, Ptr<Formatted> fmtd)
+[3.481s]       |                      [01;36m[K~~~~~~~~^~~[m[K
+[3.481s] [01m[K/usr/include/opencv4/opencv2/core.hpp:3067:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv::String& cv::operator<<(cv::String&, const cv::Mat&)[m[K’
+[3.481s]  3067 | String& [01;36m[Koperator[m[K << (String& out, const Mat& mtx)
+[3.481s]       |         [01;36m[K^~~~~~~~[m[K
+[3.481s] [01m[K/usr/include/opencv4/opencv2/core.hpp:3067:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kcv::Mat[m[K’ to ‘[01m[Kcv::String&[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>&[m[K’}
+[3.481s]  3067 | String& operator << ([01;36m[KString& out[m[K, const Mat& mtx)
+[3.481s]       |                      [01;36m[K~~~~~~~~^~~[m[K
+[3.481s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:3306[m[K,
+[3.481s]                  from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+[3.481s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+[3.482s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:3[m[K:
+[3.482s] [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:78:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::ostream& cv::operator<<(std::ostream&, cv::Ptr<cv::Formatted>)[m[K’
+[3.482s]    78 | std::ostream& [01;36m[Koperator[m[K << (std::ostream& out, Ptr<Formatted> fmtd)
+[3.482s]       |               [01;36m[K^~~~~~~~[m[K
+[3.482s] [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:78:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kcv::Mat[m[K’ to ‘[01m[Kstd::ostream&[m[K’ {aka ‘[01m[Kstd::basic_ostream<char>&[m[K’}
+[3.482s]    78 | std::ostream& operator << ([01;36m[Kstd::ostream& out[m[K, Ptr<Formatted> fmtd)
+[3.482s]       |                            [01;36m[K~~~~~~~~~~~~~~^~~[m[K
+[3.482s] [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:87:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::ostream& cv::operator<<(std::ostream&, const cv::Mat&)[m[K’
+[3.482s]    87 | std::ostream& [01;36m[Koperator[m[K << (std::ostream& out, const Mat& mtx)
+[3.482s]       |               [01;36m[K^~~~~~~~[m[K
+[3.482s] [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:87:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kcv::Mat[m[K’ to ‘[01m[Kstd::ostream&[m[K’ {aka ‘[01m[Kstd::basic_ostream<char>&[m[K’}
+[3.482s]    87 | std::ostream& operator << ([01;36m[Kstd::ostream& out[m[K, const Mat& mtx)
+[3.482s]       |                            [01;36m[K~~~~~~~~~~~~~~^~~[m[K
+[3.482s] [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:93:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::ostream& cv::operator<<(std::ostream&, const cv::UMat&)[m[K’
+[3.482s]    93 | std::ostream& [01;36m[Koperator[m[K << (std::ostream& out, const UMat& m)
+[3.482s]       |               [01;36m[K^~~~~~~~[m[K
+[3.482s] [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:93:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kcv::Mat[m[K’ to ‘[01m[Kstd::ostream&[m[K’ {aka ‘[01m[Kstd::basic_ostream<char>&[m[K’}
+[3.482s]    93 | std::ostream& operator << ([01;36m[Kstd::ostream& out[m[K, const UMat& m)
+[3.482s]       |                            [01;36m[K~~~~~~~~~~~~~~^~~[m[K
+[3.482s] [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:99:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::ostream& cv::operator<<(std::ostream&, const cv::Complex<_Tp>&)[m[K’
+[3.482s]    99 | std::ostream& [01;36m[Koperator[m[K << (std::ostream& out, const Complex<_Tp>& c)
+[3.482s]       |               [01;36m[K^~~~~~~~[m[K
+[3.482s] [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:99:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.482s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:61:99:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Tp[m[K’
+[3.483s]    61 |             std::cout<< "matrix " << matrix_coefficients_mat, distortion_coefficients_mat << std::[01;36m[Kendl[m[K;
+[3.483s]       |                                                                                                   [01;36m[K^~~~[m[K
+[3.483s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:3306[m[K,
+[3.483s]                  from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+[3.483s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+[3.483s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:3[m[K:
+[3.483s] [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:105:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::ostream& cv::operator<<(std::ostream&, const std::vector<cv::Point_<_Tp> >&)[m[K’
+[3.483s]   105 | std::ostream& [01;36m[Koperator[m[K << (std::ostream& out, const std::vector<Point_<_Tp> >& vec)
+[3.483s]       |               [01;36m[K^~~~~~~~[m[K
+[3.483s] [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:105:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.483s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:61:99:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Tp[m[K’
+[3.483s]    61 |             std::cout<< "matrix " << matrix_coefficients_mat, distortion_coefficients_mat << std::[01;36m[Kendl[m[K;
+[3.483s]       |                                                                                                   [01;36m[K^~~~[m[K
+[3.483s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:3306[m[K,
+[3.483s]                  from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+[3.483s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+[3.483s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:3[m[K:
+[3.483s] [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:112:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::ostream& cv::operator<<(std::ostream&, const std::vector<cv::Point3_<_Tp> >&)[m[K’
+[3.483s]   112 | std::ostream& [01;36m[Koperator[m[K << (std::ostream& out, const std::vector<Point3_<_Tp> >& vec)
+[3.483s]       |               [01;36m[K^~~~~~~~[m[K
+[3.483s] [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:112:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.483s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:61:99:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Tp[m[K’
+[3.483s]    61 |             std::cout<< "matrix " << matrix_coefficients_mat, distortion_coefficients_mat << std::[01;36m[Kendl[m[K;
+[3.483s]       |                                                                                                   [01;36m[K^~~~[m[K
+[3.484s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:3306[m[K,
+[3.484s]                  from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+[3.484s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+[3.484s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:3[m[K:
+[3.484s] [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:119:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, int m, int n> std::ostream& cv::operator<<(std::ostream&, const cv::Matx<_Tp, m, n>&)[m[K’
+[3.484s]   119 | std::ostream& [01;36m[Koperator[m[K << (std::ostream& out, const Matx<_Tp, m, n>& matx)
+[3.484s]       |               [01;36m[K^~~~~~~~[m[K
+[3.484s] [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:119:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.484s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:61:99:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Tp[m[K’
+[3.484s]    61 |             std::cout<< "matrix " << matrix_coefficients_mat, distortion_coefficients_mat << std::[01;36m[Kendl[m[K;
+[3.484s]       |                                                                                                   [01;36m[K^~~~[m[K
+[3.484s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:3306[m[K,
+[3.484s]                  from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+[3.484s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+[3.484s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:3[m[K:
+[3.484s] [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:125:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::ostream& cv::operator<<(std::ostream&, const cv::Point_<_Tp>&)[m[K’
+[3.484s]   125 | std::ostream& [01;36m[Koperator[m[K << (std::ostream& out, const Point_<_Tp>& p)
+[3.484s]       |               [01;36m[K^~~~~~~~[m[K
+[3.484s] [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:125:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.484s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:61:99:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Tp[m[K’
+[3.484s]    61 |             std::cout<< "matrix " << matrix_coefficients_mat, distortion_coefficients_mat << std::[01;36m[Kendl[m[K;
+[3.484s]       |                                                                                                   [01;36m[K^~~~[m[K
+[3.484s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:3306[m[K,
+[3.484s]                  from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+[3.484s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+[3.485s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:3[m[K:
+[3.485s] [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:132:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::ostream& cv::operator<<(std::ostream&, const cv::Point3_<_Tp>&)[m[K’
+[3.485s]   132 | std::ostream& [01;36m[Koperator[m[K << (std::ostream& out, const Point3_<_Tp>& p)
+[3.485s]       |               [01;36m[K^~~~~~~~[m[K
+[3.485s] [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:132:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.485s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:61:99:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Tp[m[K’
+[3.485s]    61 |             std::cout<< "matrix " << matrix_coefficients_mat, distortion_coefficients_mat << std::[01;36m[Kendl[m[K;
+[3.485s]       |                                                                                                   [01;36m[K^~~~[m[K
+[3.485s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:3306[m[K,
+[3.485s]                  from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+[3.485s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+[3.485s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:3[m[K:
+[3.485s] [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:139:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, int n> std::ostream& cv::operator<<(std::ostream&, const cv::Vec<_Tp, m>&)[m[K’
+[3.485s]   139 | std::ostream& [01;36m[Koperator[m[K << (std::ostream& out, const Vec<_Tp, n>& vec)
+[3.485s]       |               [01;36m[K^~~~~~~~[m[K
+[3.485s] [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:139:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.485s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:61:99:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Tp[m[K’
+[3.485s]    61 |             std::cout<< "matrix " << matrix_coefficients_mat, distortion_coefficients_mat << std::[01;36m[Kendl[m[K;
+[3.485s]       |                                                                                                   [01;36m[K^~~~[m[K
+[3.485s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:3306[m[K,
+[3.485s]                  from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+[3.485s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+[3.485s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:3[m[K:
+[3.485s] [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:161:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::ostream& cv::operator<<(std::ostream&, const cv::Size_<_Tp>&)[m[K’
+[3.485s]   161 | std::ostream& [01;36m[Koperator[m[K << (std::ostream& out, const Size_<_Tp>& size)
+[3.486s]       |               [01;36m[K^~~~~~~~[m[K
+[3.486s] [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:161:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.486s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:61:99:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Tp[m[K’
+[3.486s]    61 |             std::cout<< "matrix " << matrix_coefficients_mat, distortion_coefficients_mat << std::[01;36m[Kendl[m[K;
+[3.486s]       |                                                                                                   [01;36m[K^~~~[m[K
+[3.486s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:3306[m[K,
+[3.486s]                  from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+[3.486s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+[3.486s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:3[m[K:
+[3.486s] [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:167:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::ostream& cv::operator<<(std::ostream&, const cv::Rect_<_Tp>&)[m[K’
+[3.486s]   167 | std::ostream& [01;36m[Koperator[m[K << (std::ostream& out, const Rect_<_Tp>& rect)
+[3.486s]       |               [01;36m[K^~~~~~~~[m[K
+[3.486s] [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:167:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.486s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:61:99:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Tp[m[K’
+[3.486s]    61 |             std::cout<< "matrix " << matrix_coefficients_mat, distortion_coefficients_mat << std::[01;36m[Kendl[m[K;
+[3.486s]       |                                                                                                   [01;36m[K^~~~[m[K
+[3.486s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:3306[m[K,
+[3.486s]                  from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+[3.486s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+[3.486s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:3[m[K:
+[3.486s] [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:172:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::ostream& cv::operator<<(std::ostream&, const cv::MatSize&)[m[K’
+[3.486s]   172 | static inline std::ostream& [01;36m[Koperator[m[K << (std::ostream& out, const MatSize& msize)
+[3.486s]       |                             [01;36m[K^~~~~~~~[m[K
+[3.486s] [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:172:56:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kcv::Mat[m[K’ to ‘[01m[Kstd::ostream&[m[K’ {aka ‘[01m[Kstd::basic_ostream<char>&[m[K’}
+[3.486s]   172 | static inline std::ostream& operator << ([01;36m[Kstd::ostream& out[m[K, const MatSize& msize)
+[3.486s]       |                                          [01;36m[K~~~~~~~~~~~~~~^~~[m[K
+[3.487s] [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:184:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::ostream& cv::operator<<(std::ostream&, cv::Range&)[m[K’
+[3.487s]   184 | static inline std::ostream &[01;36m[Koperator[m[K<< (std::ostream &s, cv::Range &r)
+[3.487s]       |                             [01;36m[K^~~~~~~~[m[K
+[3.487s] [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:184:55:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kcv::Mat[m[K’ to ‘[01m[Kstd::ostream&[m[K’ {aka ‘[01m[Kstd::basic_ostream<char>&[m[K’}
+[3.487s]   184 | static inline std::ostream &operator<< ([01;36m[Kstd::ostream &s[m[K, cv::Range &r)
+[3.487s]       |                                         [01;36m[K~~~~~~~~~~~~~~^[m[K
+[3.487s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:3307[m[K,
+[3.487s]                  from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+[3.487s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+[3.487s]                  from [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:3[m[K:
+[3.487s] [01m[K/usr/include/opencv4/opencv2/core/utility.hpp:398:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::ostream& cv::operator<<(std::ostream&, const cv::TickMeter&)[m[K’
+[3.487s]   398 | std::ostream& [01;36m[Koperator[m[K << (std::ostream& out, const TickMeter& tm)
+[3.487s]       |               [01;36m[K^~~~~~~~[m[K
+[3.487s] [01m[K/usr/include/opencv4/opencv2/core/utility.hpp:398:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kcv::Mat[m[K’ to ‘[01m[Kstd::ostream&[m[K’ {aka ‘[01m[Kstd::basic_ostream<char>&[m[K’}
+[3.487s]   398 | std::ostream& operator << ([01;36m[Kstd::ostream& out[m[K, const TickMeter& tm)
+[3.487s]       |                            [01;36m[K~~~~~~~~~~~~~~^~~[m[K
+[8.887s] gmake[2]: *** [CMakeFiles/camera_publisher.dir/build.make:76: CMakeFiles/camera_publisher.dir/src/camera_publisher.cpp.o] Error 1
+[8.887s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/camera_publisher.dir/all] Error 2
+[8.887s] gmake: *** [Makefile:146: all] Error 2
+[8.891s] Invoked command in '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher -- -j28 -l28

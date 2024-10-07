@@ -1,0 +1,523 @@
+[0.000000] (-) TimerEvent: {}
+[0.000327] (camera_publisher) JobQueued: {'identifier': 'camera_publisher', 'dependencies': OrderedDict()}
+[0.000549] (camera_publisher) JobStarted: {'identifier': 'camera_publisher'}
+[0.009005] (camera_publisher) JobProgress: {'identifier': 'camera_publisher', 'progress': 'cmake'}
+[0.009497] (camera_publisher) JobProgress: {'identifier': 'camera_publisher', 'progress': 'build'}
+[0.010127] (camera_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher', '--', '-j28', '-l28'], 'cwd': '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', ''), ('USER', 'abd1340m'), ('SSH_AGENT_PID', '13296'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/abd1340m'), ('OLDPWD', '/home/abd1340m/Dokumente/c++'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('MODULES_CMD', '/usr/lib/x86_64-linux-gnu/modulecmd.tcl'), ('LC_CTYPE', ''), ('SYSTEMD_EXEC_PID', '13559'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1003/bus'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'abd1340m'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('LC_COLLATE', ''), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/fma-pc-kc05lx:@/tmp/.ICE-unix/13537,unix/fma-pc-kc05lx:/tmp/.ICE-unix/13537'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/19d5fbd9_750d_4505_8adf_289e9b55ff87'), ('XDG_RUNTIME_DIR', '/run/user/1003'), ('DISPLAY', ':10.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AUTH_SOCK', '/run/user/1003/keyring/ssh'), ('ROS_DOMAIN_ID', '12'), ('AMENT_PREFIX_PATH', '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher:/opt/ros/humble'), ('LC_MESSAGES', ''), ('UID', '1003'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1003/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', 'JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64/bin/java'), ('PWD', '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher'), ('LOADEDMODULES', ''), ('LC_ALL', 'en_US.UTF-8'), ('PYLON_ROOT', '/opt/pylon'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/home/abd1340m/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', ':/opt/pylon/lib/gentlproducer/gtl'), ('MANPATH', ':'), ('VTE_VERSION', '6800'), ('MODULEPATH', '/etc/environment-modules/modules:/usr/share/modules/versions:/usr/share/modules/$MODULE_VERSION/modulefiles:/usr/share/modules/modulefiles'), ('MODULESHOME', '/usr/share/modules'), ('CMAKE_PREFIX_PATH', '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher:/opt/ros/humble')]), 'shell': False}
+[0.095699] (camera_publisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target camera_publisher\x1b[0m\n'}
+[0.099737] (-) TimerEvent: {}
+[0.135912] (camera_publisher) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/camera_publisher.dir/src/camera_publisher.cpp.o\x1b[0m\n'}
+[0.200265] (-) TimerEvent: {}
+[0.300729] (-) TimerEvent: {}
+[0.401342] (-) TimerEvent: {}
+[0.502158] (-) TimerEvent: {}
+[0.602661] (-) TimerEvent: {}
+[0.703485] (-) TimerEvent: {}
+[0.804335] (-) TimerEvent: {}
+[0.905187] (-) TimerEvent: {}
+[1.006051] (-) TimerEvent: {}
+[1.106897] (-) TimerEvent: {}
+[1.207372] (-) TimerEvent: {}
+[1.308212] (-) TimerEvent: {}
+[1.408685] (-) TimerEvent: {}
+[1.509144] (-) TimerEvent: {}
+[1.609647] (-) TimerEvent: {}
+[1.710121] (-) TimerEvent: {}
+[1.810598] (-) TimerEvent: {}
+[1.911074] (-) TimerEvent: {}
+[2.011960] (-) TimerEvent: {}
+[2.112822] (-) TimerEvent: {}
+[2.213284] (-) TimerEvent: {}
+[2.314021] (-) TimerEvent: {}
+[2.414872] (-) TimerEvent: {}
+[2.515720] (-) TimerEvent: {}
+[2.616562] (-) TimerEvent: {}
+[2.717411] (-) TimerEvent: {}
+[2.818288] (-) TimerEvent: {}
+[2.918771] (-) TimerEvent: {}
+[3.019603] (-) TimerEvent: {}
+[3.120099] (-) TimerEvent: {}
+[3.220695] (-) TimerEvent: {}
+[3.321276] (-) TimerEvent: {}
+[3.421973] (-) TimerEvent: {}
+[3.429153] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KCameraSubscriber::CameraSubscriber()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.430027] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:31:76:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::Mat(int, int, int, std::vector<double, std::allocator<double> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.430448] (camera_publisher) StderrLine: {'line': b'   31 |         matrix_coefficients_mat = cv::Mat(3, 3, CV_64F, matrix_coefficients\x1b[01;31m\x1b[K)\x1b[m\x1b[K.clone(); // Use CV_32F for float\n'}
+[3.430595] (camera_publisher) StderrLine: {'line': b'      |                                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.430733] (camera_publisher) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:58\x1b[m\x1b[K,\n'}
+[3.431057] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/core.hpp:48\x1b[m\x1b[K,\n'}
+[3.431187] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43\x1b[m\x1b[K,\n'}
+[3.431772] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:3\x1b[m\x1b[K:\n'}
+[3.431901] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:2091:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::Mat(cv::Mat&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.432031] (camera_publisher) StderrLine: {'line': b' 2091 |     \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(Mat&& m);\n'}
+[3.432157] (camera_publisher) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.432279] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:2091:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 4 provided\n'}
+[3.432406] (camera_publisher) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/cuda.hpp:1268\x1b[m\x1b[K,\n'}
+[3.432530] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/stitching/detail/warpers.hpp:47\x1b[m\x1b[K,\n'}
+[3.432653] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/stitching/warpers.hpp:46\x1b[m\x1b[K,\n'}
+[3.432777] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/stitching.hpp:48\x1b[m\x1b[K,\n'}
+[3.432900] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/opencv.hpp:86\x1b[m\x1b[K,\n'}
+[3.433023] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:4\x1b[m\x1b[K:\n'}
+[3.433148] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/cuda.inl.hpp:713:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::Mat(const cv::cuda::GpuMat&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.433276] (camera_publisher) StderrLine: {'line': b'  713 | \x1b[01;36m\x1b[KMat\x1b[m\x1b[K::Mat(const cuda::GpuMat& m)\n'}
+[3.433399] (camera_publisher) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.433522] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/cuda.inl.hpp:713:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 4 provided\n'}
+[3.434451] (camera_publisher) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:58\x1b[m\x1b[K,\n'}
+[3.434822] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/core.hpp:48\x1b[m\x1b[K,\n'}
+[3.434970] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43\x1b[m\x1b[K,\n'}
+[3.435117] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:3\x1b[m\x1b[K:\n'}
+[3.435262] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1048:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> cv::Mat::Mat(const cv::MatCommaInitializer_<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.435408] (camera_publisher) StderrLine: {'line': b' 1048 |     template<typename _Tp> explicit \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(const MatCommaInitializer_<_Tp>& commaInitializer);\n'}
+[3.435551] (camera_publisher) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.435692] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1048:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.436306] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:31:76:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst cv::MatCommaInitializer_<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.436713] (camera_publisher) StderrLine: {'line': b'   31 |         matrix_coefficients_mat = cv::Mat(3, 3, CV_64F, matrix_coefficients\x1b[01;36m\x1b[K)\x1b[m\x1b[K.clone(); // Use CV_32F for float\n'}
+[3.437198] (camera_publisher) StderrLine: {'line': b'      |                                                                            \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.437337] (camera_publisher) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:58\x1b[m\x1b[K,\n'}
+[3.437474] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/core.hpp:48\x1b[m\x1b[K,\n'}
+[3.437653] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43\x1b[m\x1b[K,\n'}
+[3.437812] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:3\x1b[m\x1b[K:\n'}
+[3.437960] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1044:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> cv::Mat::Mat(const cv::Point3_<_Tp>&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.438099] (camera_publisher) StderrLine: {'line': b' 1044 |     template<typename _Tp> explicit \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(const Point3_<_Tp>& pt, bool copyData=true);\n'}
+[3.438233] (camera_publisher) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.438366] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1044:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.438500] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:31:76:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst cv::Point3_<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.438638] (camera_publisher) StderrLine: {'line': b'   31 |         matrix_coefficients_mat = cv::Mat(3, 3, CV_64F, matrix_coefficients\x1b[01;36m\x1b[K)\x1b[m\x1b[K.clone(); // Use CV_32F for float\n'}
+[3.438774] (camera_publisher) StderrLine: {'line': b'      |                                                                            \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.438907] (camera_publisher) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:58\x1b[m\x1b[K,\n'}
+[3.439039] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/core.hpp:48\x1b[m\x1b[K,\n'}
+[3.439173] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43\x1b[m\x1b[K,\n'}
+[3.439307] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:3\x1b[m\x1b[K:\n'}
+[3.439441] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1040:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> cv::Mat::Mat(const cv::Point_<_Tp>&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.439578] (camera_publisher) StderrLine: {'line': b' 1040 |     template<typename _Tp> explicit \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(const Point_<_Tp>& pt, bool copyData=true);\n'}
+[3.439726] (camera_publisher) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.439861] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1040:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.439996] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:31:76:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst cv::Point_<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.440151] (camera_publisher) StderrLine: {'line': b'   31 |         matrix_coefficients_mat = cv::Mat(3, 3, CV_64F, matrix_coefficients\x1b[01;36m\x1b[K)\x1b[m\x1b[K.clone(); // Use CV_32F for float\n'}
+[3.440288] (camera_publisher) StderrLine: {'line': b'      |                                                                            \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.440422] (camera_publisher) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:58\x1b[m\x1b[K,\n'}
+[3.440556] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/core.hpp:48\x1b[m\x1b[K,\n'}
+[3.440690] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43\x1b[m\x1b[K,\n'}
+[3.440824] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:3\x1b[m\x1b[K:\n'}
+[3.440959] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1036:51:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, int m, int n> cv::Mat::Mat(const cv::Matx<_Tp, m, n>&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.441096] (camera_publisher) StderrLine: {'line': b' 1036 |     template<typename _Tp, int m, int n> explicit \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(const Matx<_Tp, m, n>& mtx, bool copyData=true);\n'}
+[3.441231] (camera_publisher) StderrLine: {'line': b'      |                                                   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.441377] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1036:51:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.441514] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:31:76:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst cv::Matx<_Tp, m, n>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.441676] (camera_publisher) StderrLine: {'line': b'   31 |         matrix_coefficients_mat = cv::Mat(3, 3, CV_64F, matrix_coefficients\x1b[01;36m\x1b[K)\x1b[m\x1b[K.clone(); // Use CV_32F for float\n'}
+[3.441815] (camera_publisher) StderrLine: {'line': b'      |                                                                            \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.441949] (camera_publisher) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:58\x1b[m\x1b[K,\n'}
+[3.442084] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/core.hpp:48\x1b[m\x1b[K,\n'}
+[3.442219] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43\x1b[m\x1b[K,\n'}
+[3.442367] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:3\x1b[m\x1b[K:\n'}
+[3.442513] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1032:44:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, int n> cv::Mat::Mat(const cv::Vec<_Tp, m>&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.442668] (camera_publisher) StderrLine: {'line': b' 1032 |     template<typename _Tp, int n> explicit \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(const Vec<_Tp, n>& vec, bool copyData=true);\n'}
+[3.442805] (camera_publisher) StderrLine: {'line': b'      |                                            \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.442941] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1032:44:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.443077] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:31:76:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst cv::Vec<_Tp, m>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.443215] (camera_publisher) StderrLine: {'line': b'   31 |         matrix_coefficients_mat = cv::Mat(3, 3, CV_64F, matrix_coefficients\x1b[01;36m\x1b[K)\x1b[m\x1b[K.clone(); // Use CV_32F for float\n'}
+[3.443351] (camera_publisher) StderrLine: {'line': b'      |                                                                            \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.443487] (camera_publisher) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:58\x1b[m\x1b[K,\n'}
+[3.443623] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/core.hpp:48\x1b[m\x1b[K,\n'}
+[3.443757] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43\x1b[m\x1b[K,\n'}
+[3.443891] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:3\x1b[m\x1b[K:\n'}
+[3.444026] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1028:49:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, long unsigned int _Nm> cv::Mat::Mat(const std::array<_Tp, _Nm>&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.444163] (camera_publisher) StderrLine: {'line': b' 1028 |     template<typename _Tp, size_t _Nm> explicit \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(const std::array<_Tp, _Nm>& arr, bool copyData=false);\n'}
+[3.444298] (camera_publisher) StderrLine: {'line': b'      |                                                 \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.444434] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1028:49:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.444568] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:31:76:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<_Tp, _Nm>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.444705] (camera_publisher) StderrLine: {'line': b'   31 |         matrix_coefficients_mat = cv::Mat(3, 3, CV_64F, matrix_coefficients\x1b[01;36m\x1b[K)\x1b[m\x1b[K.clone(); // Use CV_32F for float\n'}
+[3.444840] (camera_publisher) StderrLine: {'line': b'      |                                                                            \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.444976] (camera_publisher) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:58\x1b[m\x1b[K,\n'}
+[3.445109] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/core.hpp:48\x1b[m\x1b[K,\n'}
+[3.445241] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43\x1b[m\x1b[K,\n'}
+[3.445340] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:3\x1b[m\x1b[K:\n'}
+[3.445440] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1024:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> cv::Mat::Mat(std::initializer_list<int>, std::initializer_list<_Tp>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.445562] (camera_publisher) StderrLine: {'line': b' 1024 |     template<typename _Tp> explicit \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(const std::initializer_list<int> sizes, const std::initializer_list<_Tp> list);\n'}
+[3.445693] (camera_publisher) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.445794] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1024:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.445895] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:31:76:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.445997] (camera_publisher) StderrLine: {'line': b'   31 |         matrix_coefficients_mat = cv::Mat(3, 3, CV_64F, matrix_coefficients\x1b[01;36m\x1b[K)\x1b[m\x1b[K.clone(); // Use CV_32F for float\n'}
+[3.446098] (camera_publisher) StderrLine: {'line': b'      |                                                                            \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.446200] (camera_publisher) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:58\x1b[m\x1b[K,\n'}
+[3.446303] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/core.hpp:48\x1b[m\x1b[K,\n'}
+[3.446415] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43\x1b[m\x1b[K,\n'}
+[3.446514] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:3\x1b[m\x1b[K:\n'}
+[3.446625] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1020:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class> cv::Mat::Mat(std::initializer_list<_Tp>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.446730] (camera_publisher) StderrLine: {'line': b' 1020 |     explicit \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(const std::initializer_list<_Tp> list);\n'}
+[3.446833] (camera_publisher) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.446934] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1020:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.447036] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:31:76:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.447139] (camera_publisher) StderrLine: {'line': b'   31 |         matrix_coefficients_mat = cv::Mat(3, 3, CV_64F, matrix_coefficients\x1b[01;36m\x1b[K)\x1b[m\x1b[K.clone(); // Use CV_32F for float\n'}
+[3.447250] (camera_publisher) StderrLine: {'line': b'      |                                                                            \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.447351] (camera_publisher) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:58\x1b[m\x1b[K,\n'}
+[3.447452] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/core.hpp:48\x1b[m\x1b[K,\n'}
+[3.447553] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43\x1b[m\x1b[K,\n'}
+[3.447656] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:3\x1b[m\x1b[K:\n'}
+[3.447757] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1015:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> cv::Mat::Mat(const std::vector<BufferT>&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.447862] (camera_publisher) StderrLine: {'line': b' 1015 |     template<typename _Tp> explicit \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(const std::vector<_Tp>& vec, bool copyData=false);\n'}
+[3.447962] (camera_publisher) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.448064] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1015:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.448165] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:31:76:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<BufferT>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.448269] (camera_publisher) StderrLine: {'line': b'   31 |         matrix_coefficients_mat = cv::Mat(3, 3, CV_64F, matrix_coefficients\x1b[01;36m\x1b[K)\x1b[m\x1b[K.clone(); // Use CV_32F for float\n'}
+[3.448371] (camera_publisher) StderrLine: {'line': b'      |                                                                            \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.448473] (camera_publisher) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:58\x1b[m\x1b[K,\n'}
+[3.448573] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/core.hpp:48\x1b[m\x1b[K,\n'}
+[3.448673] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43\x1b[m\x1b[K,\n'}
+[3.448782] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:3\x1b[m\x1b[K:\n'}
+[3.448884] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:997:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::Mat(const cv::Mat&, const std::vector<cv::Range>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.448987] (camera_publisher) StderrLine: {'line': b'  997 |     \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(const Mat& m, const std::vector<Range>& ranges);\n'}
+[3.449089] (camera_publisher) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.449188] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:997:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 4 provided\n'}
+[3.449288] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:987:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::Mat(const cv::Mat&, const cv::Range*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.449399] (camera_publisher) StderrLine: {'line': b'  987 |     \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(const Mat& m, const Range* ranges);\n'}
+[3.449500] (camera_publisher) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.449611] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:987:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 4 provided\n'}
+[3.449715] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:977:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::Mat(const cv::Mat&, const Rect&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.449816] (camera_publisher) StderrLine: {'line': b'  977 |     \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(const Mat& m, const Rect& roi);\n'}
+[3.449915] (camera_publisher) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.450014] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:977:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 4 provided\n'}
+[3.450116] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:967:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::Mat(const cv::Mat&, const cv::Range&, const cv::Range&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.450227] (camera_publisher) StderrLine: {'line': b'  967 |     \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(const Mat& m, const Range& rowRange, const Range& colRange=Range::all());\n'}
+[3.450336] (camera_publisher) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.450436] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:967:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 4 provided\n'}
+[3.450555] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:955:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::Mat(const std::vector<int>&, int, void*, const size_t*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.450658] (camera_publisher) StderrLine: {'line': b'  955 |     \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(const std::vector<int>& sizes, int type, void* data, const size_t* steps=0);\n'}
+[3.450758] (camera_publisher) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.450858] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:955:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<int>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.450961] (camera_publisher) StderrLine: {'line': b'  955 |     Mat(\x1b[01;36m\x1b[Kconst std::vector<int>& sizes\x1b[m\x1b[K, int type, void* data, const size_t* steps=0);\n'}
+[3.451064] (camera_publisher) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[3.451164] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:941:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::Mat(int, const int*, int, void*, const size_t*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.451268] (camera_publisher) StderrLine: {'line': b'  941 |     \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(int ndims, const int* sizes, int type, void* data, const size_t* steps=0);\n'}
+[3.451370] (camera_publisher) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.451469] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:941:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 4 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kvoid*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.451583] (camera_publisher) StderrLine: {'line': b'  941 |     Mat(int ndims, const int* sizes, int type, \x1b[01;36m\x1b[Kvoid* data\x1b[m\x1b[K, const size_t* steps=0);\n'}
+[3.451685] (camera_publisher) StderrLine: {'line': b'      |                                                \x1b[01;36m\x1b[K~~~~~~^~~~\x1b[m\x1b[K\n'}
+[3.451787] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:926:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::Mat(cv::Size, int, void*, size_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.451889] (camera_publisher) StderrLine: {'line': b'  926 |     \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(Size size, int type, void* data, size_t step=AUTO_STEP);\n'}
+[3.451991] (camera_publisher) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.452091] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:926:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kcv::Size\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kcv::Size_<int>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.452198] (camera_publisher) StderrLine: {'line': b'  926 |     Mat(\x1b[01;36m\x1b[KSize size\x1b[m\x1b[K, int type, void* data, size_t step=AUTO_STEP);\n'}
+[3.452308] (camera_publisher) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~^~~~\x1b[m\x1b[K\n'}
+[3.452411] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:910:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::Mat(int, int, int, void*, size_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.452518] (camera_publisher) StderrLine: {'line': b'  910 |     \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(int rows, int cols, int type, void* data, size_t step=AUTO_STEP);\n'}
+[3.452626] (camera_publisher) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.452736] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:910:45:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 4 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kvoid*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.452848] (camera_publisher) StderrLine: {'line': b'  910 |     Mat(int rows, int cols, int type, \x1b[01;36m\x1b[Kvoid* data\x1b[m\x1b[K, size_t step=AUTO_STEP);\n'}
+[3.452956] (camera_publisher) StderrLine: {'line': b'      |                                       \x1b[01;36m\x1b[K~~~~~~^~~~\x1b[m\x1b[K\n'}
+[3.453062] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:894:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::Mat(const cv::Mat&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.453164] (camera_publisher) StderrLine: {'line': b'  894 |     \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(const Mat& m);\n'}
+[3.453265] (camera_publisher) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.453365] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:894:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 4 provided\n'}
+[3.453467] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:884:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::Mat(const std::vector<int>&, int, const Scalar&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.453577] (camera_publisher) StderrLine: {'line': b'  884 |     \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(const std::vector<int>& sizes, int type, const Scalar& s);\n'}
+[3.453687] (camera_publisher) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.453791] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:884:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 4 provided\n'}
+[3.453908] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:874:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::Mat(int, const int*, int, const Scalar&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.454023] (camera_publisher) StderrLine: {'line': b'  874 |     \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(int ndims, const int* sizes, int type, const Scalar& s);\n'}
+[3.454126] (camera_publisher) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.454228] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:874:62:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 4 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst Scalar&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst cv::Scalar_<double>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.454348] (camera_publisher) StderrLine: {'line': b'  874 |     Mat(int ndims, const int* sizes, int type, \x1b[01;36m\x1b[Kconst Scalar& s\x1b[m\x1b[K);\n'}
+[3.454456] (camera_publisher) StderrLine: {'line': b'      |                                                \x1b[01;36m\x1b[K~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[3.454561] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:863:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::Mat(const std::vector<int>&, int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.454665] (camera_publisher) StderrLine: {'line': b'  863 |     \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(const std::vector<int>& sizes, int type);\n'}
+[3.454768] (camera_publisher) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.454868] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:863:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 4 provided\n'}
+[3.454970] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:856:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::Mat(int, const int*, int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.455073] (camera_publisher) StderrLine: {'line': b'  856 |     \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(int ndims, const int* sizes, int type);\n'}
+[3.455176] (camera_publisher) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.455277] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:856:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 4 provided\n'}
+[3.455380] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:848:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::Mat(cv::Size, int, const Scalar&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.455482] (camera_publisher) StderrLine: {'line': b'  848 |     \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(Size size, int type, const Scalar& s);\n'}
+[3.455584] (camera_publisher) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.455670] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:848:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 4 provided\n'}
+[3.455740] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:837:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::Mat(int, int, int, const Scalar&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.455808] (camera_publisher) StderrLine: {'line': b'  837 |     \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(int rows, int cols, int type, const Scalar& s);\n'}
+[3.455877] (camera_publisher) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.456389] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:837:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 4 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst Scalar&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst cv::Scalar_<double>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.456467] (camera_publisher) StderrLine: {'line': b'  837 |     Mat(int rows, int cols, int type, \x1b[01;36m\x1b[Kconst Scalar& s\x1b[m\x1b[K);\n'}
+[3.456536] (camera_publisher) StderrLine: {'line': b'      |                                       \x1b[01;36m\x1b[K~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[3.456604] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:826:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::Mat(cv::Size, int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.456673] (camera_publisher) StderrLine: {'line': b'  826 |     \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(Size size, int type);\n'}
+[3.456742] (camera_publisher) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.456809] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:826:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 4 provided\n'}
+[3.456878] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:818:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::Mat(int, int, int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.456946] (camera_publisher) StderrLine: {'line': b'  818 |     \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(int rows, int cols, int type);\n'}
+[3.457015] (camera_publisher) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.457083] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:818:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 4 provided\n'}
+[3.457153] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:810:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::Mat()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.457221] (camera_publisher) StderrLine: {'line': b'  810 |     \x1b[01;36m\x1b[KMat\x1b[m\x1b[K() CV_NOEXCEPT;\n'}
+[3.457289] (camera_publisher) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.457356] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:810:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 4 provided\n'}
+[3.457423] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:32:113:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::Mat(std::vector<double, std::allocator<double> >::size_type, int, int, std::vector<double, std::allocator<double> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.457494] (camera_publisher) StderrLine: {'line': b'   32 |         distortion_coefficients_mat = cv::Mat(distortion_coefficients.size(), 1, CV_64F, distortion_coefficients\x1b[01;31m\x1b[K)\x1b[m\x1b[K.clone(); // Use CV_32F for float\n'}
+[3.457580] (camera_publisher) StderrLine: {'line': b'      |                                                                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.457651] (camera_publisher) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:58\x1b[m\x1b[K,\n'}
+[3.457725] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/core.hpp:48\x1b[m\x1b[K,\n'}
+[3.457792] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43\x1b[m\x1b[K,\n'}
+[3.457865] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:3\x1b[m\x1b[K:\n'}
+[3.457933] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:2091:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::Mat(cv::Mat&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.458001] (camera_publisher) StderrLine: {'line': b' 2091 |     \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(Mat&& m);\n'}
+[3.458068] (camera_publisher) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.458134] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:2091:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 4 provided\n'}
+[3.458201] (camera_publisher) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/cuda.hpp:1268\x1b[m\x1b[K,\n'}
+[3.458268] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/stitching/detail/warpers.hpp:47\x1b[m\x1b[K,\n'}
+[3.458334] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/stitching/warpers.hpp:46\x1b[m\x1b[K,\n'}
+[3.458401] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/stitching.hpp:48\x1b[m\x1b[K,\n'}
+[3.458467] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/opencv.hpp:86\x1b[m\x1b[K,\n'}
+[3.458534] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:4\x1b[m\x1b[K:\n'}
+[3.458603] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/cuda.inl.hpp:713:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::Mat(const cv::cuda::GpuMat&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.458673] (camera_publisher) StderrLine: {'line': b'  713 | \x1b[01;36m\x1b[KMat\x1b[m\x1b[K::Mat(const cuda::GpuMat& m)\n'}
+[3.458740] (camera_publisher) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.458807] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/cuda.inl.hpp:713:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 4 provided\n'}
+[3.458881] (camera_publisher) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:58\x1b[m\x1b[K,\n'}
+[3.458948] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/core.hpp:48\x1b[m\x1b[K,\n'}
+[3.459015] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43\x1b[m\x1b[K,\n'}
+[3.459082] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:3\x1b[m\x1b[K:\n'}
+[3.459150] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1048:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> cv::Mat::Mat(const cv::MatCommaInitializer_<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.459219] (camera_publisher) StderrLine: {'line': b' 1048 |     template<typename _Tp> explicit \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(const MatCommaInitializer_<_Tp>& commaInitializer);\n'}
+[3.459287] (camera_publisher) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.459355] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1048:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.459431] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:32:113:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst cv::MatCommaInitializer_<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.459514] (camera_publisher) StderrLine: {'line': b'   32 |         distortion_coefficients_mat = cv::Mat(distortion_coefficients.size(), 1, CV_64F, distortion_coefficients\x1b[01;36m\x1b[K)\x1b[m\x1b[K.clone(); // Use CV_32F for float\n'}
+[3.459583] (camera_publisher) StderrLine: {'line': b'      |                                                                                                                 \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.459652] (camera_publisher) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:58\x1b[m\x1b[K,\n'}
+[3.459719] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/core.hpp:48\x1b[m\x1b[K,\n'}
+[3.459787] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43\x1b[m\x1b[K,\n'}
+[3.459855] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:3\x1b[m\x1b[K:\n'}
+[3.459923] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1044:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> cv::Mat::Mat(const cv::Point3_<_Tp>&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.459993] (camera_publisher) StderrLine: {'line': b' 1044 |     template<typename _Tp> explicit \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(const Point3_<_Tp>& pt, bool copyData=true);\n'}
+[3.460060] (camera_publisher) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.460134] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1044:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.460202] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:32:113:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst cv::Point3_<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.460281] (camera_publisher) StderrLine: {'line': b'   32 |         distortion_coefficients_mat = cv::Mat(distortion_coefficients.size(), 1, CV_64F, distortion_coefficients\x1b[01;36m\x1b[K)\x1b[m\x1b[K.clone(); // Use CV_32F for float\n'}
+[3.460350] (camera_publisher) StderrLine: {'line': b'      |                                                                                                                 \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.460425] (camera_publisher) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:58\x1b[m\x1b[K,\n'}
+[3.460492] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/core.hpp:48\x1b[m\x1b[K,\n'}
+[3.460558] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43\x1b[m\x1b[K,\n'}
+[3.460626] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:3\x1b[m\x1b[K:\n'}
+[3.460693] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1040:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> cv::Mat::Mat(const cv::Point_<_Tp>&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.460768] (camera_publisher) StderrLine: {'line': b' 1040 |     template<typename _Tp> explicit \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(const Point_<_Tp>& pt, bool copyData=true);\n'}
+[3.460835] (camera_publisher) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.460907] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1040:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.460975] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:32:113:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst cv::Point_<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.461046] (camera_publisher) StderrLine: {'line': b'   32 |         distortion_coefficients_mat = cv::Mat(distortion_coefficients.size(), 1, CV_64F, distortion_coefficients\x1b[01;36m\x1b[K)\x1b[m\x1b[K.clone(); // Use CV_32F for float\n'}
+[3.461113] (camera_publisher) StderrLine: {'line': b'      |                                                                                                                 \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.461180] (camera_publisher) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:58\x1b[m\x1b[K,\n'}
+[3.461247] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/core.hpp:48\x1b[m\x1b[K,\n'}
+[3.461313] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43\x1b[m\x1b[K,\n'}
+[3.461379] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:3\x1b[m\x1b[K:\n'}
+[3.461447] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1036:51:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, int m, int n> cv::Mat::Mat(const cv::Matx<_Tp, m, n>&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.461519] (camera_publisher) StderrLine: {'line': b' 1036 |     template<typename _Tp, int m, int n> explicit \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(const Matx<_Tp, m, n>& mtx, bool copyData=true);\n'}
+[3.461598] (camera_publisher) StderrLine: {'line': b'      |                                                   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.461666] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1036:51:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.461733] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:32:113:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst cv::Matx<_Tp, m, n>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.461807] (camera_publisher) StderrLine: {'line': b'   32 |         distortion_coefficients_mat = cv::Mat(distortion_coefficients.size(), 1, CV_64F, distortion_coefficients\x1b[01;36m\x1b[K)\x1b[m\x1b[K.clone(); // Use CV_32F for float\n'}
+[3.461874] (camera_publisher) StderrLine: {'line': b'      |                                                                                                                 \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.461949] (camera_publisher) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:58\x1b[m\x1b[K,\n'}
+[3.462017] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/core.hpp:48\x1b[m\x1b[K,\n'}
+[3.462085] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43\x1b[m\x1b[K,\n'}
+[3.462161] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:3\x1b[m\x1b[K:\n'}
+[3.462231] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1032:44:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, int n> cv::Mat::Mat(const cv::Vec<_Tp, m>&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.462308] (camera_publisher) StderrLine: {'line': b' 1032 |     template<typename _Tp, int n> explicit \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(const Vec<_Tp, n>& vec, bool copyData=true);\n'}
+[3.462378] (camera_publisher) StderrLine: {'line': b'      |                                            \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.462449] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1032:44:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.462520] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:32:113:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst cv::Vec<_Tp, m>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.462594] (camera_publisher) StderrLine: {'line': b'   32 |         distortion_coefficients_mat = cv::Mat(distortion_coefficients.size(), 1, CV_64F, distortion_coefficients\x1b[01;36m\x1b[K)\x1b[m\x1b[K.clone(); // Use CV_32F for float\n'}
+[3.462667] (camera_publisher) StderrLine: {'line': b'      |                                                                                                                 \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.462742] (camera_publisher) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:58\x1b[m\x1b[K,\n'}
+[3.462811] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/core.hpp:48\x1b[m\x1b[K,\n'}
+[3.462880] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43\x1b[m\x1b[K,\n'}
+[3.462950] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:3\x1b[m\x1b[K:\n'}
+[3.463018] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1028:49:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, long unsigned int _Nm> cv::Mat::Mat(const std::array<_Tp, _Nm>&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.463088] (camera_publisher) StderrLine: {'line': b' 1028 |     template<typename _Tp, size_t _Nm> explicit \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(const std::array<_Tp, _Nm>& arr, bool copyData=false);\n'}
+[3.463158] (camera_publisher) StderrLine: {'line': b'      |                                                 \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.463228] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1028:49:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.463303] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:32:113:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<_Tp, _Nm>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.463377] (camera_publisher) StderrLine: {'line': b'   32 |         distortion_coefficients_mat = cv::Mat(distortion_coefficients.size(), 1, CV_64F, distortion_coefficients\x1b[01;36m\x1b[K)\x1b[m\x1b[K.clone(); // Use CV_32F for float\n'}
+[3.463447] (camera_publisher) StderrLine: {'line': b'      |                                                                                                                 \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.463516] (camera_publisher) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:58\x1b[m\x1b[K,\n'}
+[3.463584] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/core.hpp:48\x1b[m\x1b[K,\n'}
+[3.463652] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43\x1b[m\x1b[K,\n'}
+[3.463720] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:3\x1b[m\x1b[K:\n'}
+[3.463791] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1024:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> cv::Mat::Mat(std::initializer_list<int>, std::initializer_list<_Tp>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.463861] (camera_publisher) StderrLine: {'line': b' 1024 |     template<typename _Tp> explicit \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(const std::initializer_list<int> sizes, const std::initializer_list<_Tp> list);\n'}
+[3.463931] (camera_publisher) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.463999] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1024:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.464066] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:32:113:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.464136] (camera_publisher) StderrLine: {'line': b'   32 |         distortion_coefficients_mat = cv::Mat(distortion_coefficients.size(), 1, CV_64F, distortion_coefficients\x1b[01;36m\x1b[K)\x1b[m\x1b[K.clone(); // Use CV_32F for float\n'}
+[3.464212] (camera_publisher) StderrLine: {'line': b'      |                                                                                                                 \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.464301] (camera_publisher) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:58\x1b[m\x1b[K,\n'}
+[3.464391] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/core.hpp:48\x1b[m\x1b[K,\n'}
+[3.464506] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43\x1b[m\x1b[K,\n'}
+[3.464612] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:3\x1b[m\x1b[K:\n'}
+[3.464716] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1020:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class> cv::Mat::Mat(std::initializer_list<_Tp>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.464828] (camera_publisher) StderrLine: {'line': b' 1020 |     explicit \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(const std::initializer_list<_Tp> list);\n'}
+[3.464929] (camera_publisher) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.465029] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1020:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.465138] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:32:113:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.465250] (camera_publisher) StderrLine: {'line': b'   32 |         distortion_coefficients_mat = cv::Mat(distortion_coefficients.size(), 1, CV_64F, distortion_coefficients\x1b[01;36m\x1b[K)\x1b[m\x1b[K.clone(); // Use CV_32F for float\n'}
+[3.465354] (camera_publisher) StderrLine: {'line': b'      |                                                                                                                 \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.465463] (camera_publisher) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:58\x1b[m\x1b[K,\n'}
+[3.465530] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/core.hpp:48\x1b[m\x1b[K,\n'}
+[3.465610] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43\x1b[m\x1b[K,\n'}
+[3.465679] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:3\x1b[m\x1b[K:\n'}
+[3.465746] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1015:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> cv::Mat::Mat(const std::vector<BufferT>&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.465814] (camera_publisher) StderrLine: {'line': b' 1015 |     template<typename _Tp> explicit \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(const std::vector<_Tp>& vec, bool copyData=false);\n'}
+[3.465882] (camera_publisher) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.465949] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:1015:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.466014] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:32:113:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<BufferT>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.466085] (camera_publisher) StderrLine: {'line': b'   32 |         distortion_coefficients_mat = cv::Mat(distortion_coefficients.size(), 1, CV_64F, distortion_coefficients\x1b[01;36m\x1b[K)\x1b[m\x1b[K.clone(); // Use CV_32F for float\n'}
+[3.466153] (camera_publisher) StderrLine: {'line': b'      |                                                                                                                 \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.466220] (camera_publisher) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:58\x1b[m\x1b[K,\n'}
+[3.466293] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/core.hpp:48\x1b[m\x1b[K,\n'}
+[3.466360] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43\x1b[m\x1b[K,\n'}
+[3.466429] (camera_publisher) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:3\x1b[m\x1b[K:\n'}
+[3.466497] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:997:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::Mat(const cv::Mat&, const std::vector<cv::Range>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.466568] (camera_publisher) StderrLine: {'line': b'  997 |     \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(const Mat& m, const std::vector<Range>& ranges);\n'}
+[3.466634] (camera_publisher) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.466701] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:997:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 4 provided\n'}
+[3.466770] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:987:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::Mat(const cv::Mat&, const cv::Range*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.466846] (camera_publisher) StderrLine: {'line': b'  987 |     \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(const Mat& m, const Range* ranges);\n'}
+[3.466916] (camera_publisher) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.466983] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:987:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 4 provided\n'}
+[3.467054] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:977:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::Mat(const cv::Mat&, const Rect&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.467121] (camera_publisher) StderrLine: {'line': b'  977 |     \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(const Mat& m, const Rect& roi);\n'}
+[3.467186] (camera_publisher) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.467253] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:977:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 4 provided\n'}
+[3.467321] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:967:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::Mat(const cv::Mat&, const cv::Range&, const cv::Range&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.467393] (camera_publisher) StderrLine: {'line': b'  967 |     \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(const Mat& m, const Range& rowRange, const Range& colRange=Range::all());\n'}
+[3.467458] (camera_publisher) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.467528] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:967:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 4 provided\n'}
+[3.467595] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:955:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::Mat(const std::vector<int>&, int, void*, const size_t*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.467661] (camera_publisher) StderrLine: {'line': b'  955 |     \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(const std::vector<int>& sizes, int type, void* data, const size_t* steps=0);\n'}
+[3.467729] (camera_publisher) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.467794] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:955:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<int>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.467872] (camera_publisher) StderrLine: {'line': b'  955 |     Mat(\x1b[01;36m\x1b[Kconst std::vector<int>& sizes\x1b[m\x1b[K, int type, void* data, const size_t* steps=0);\n'}
+[3.467940] (camera_publisher) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[3.467987] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:941:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::Mat(int, const int*, int, void*, const size_t*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.468034] (camera_publisher) StderrLine: {'line': b'  941 |     \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(int ndims, const int* sizes, int type, void* data, const size_t* steps=0);\n'}
+[3.468085] (camera_publisher) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.468130] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:941:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 4 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kvoid*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.468178] (camera_publisher) StderrLine: {'line': b'  941 |     Mat(int ndims, const int* sizes, int type, \x1b[01;36m\x1b[Kvoid* data\x1b[m\x1b[K, const size_t* steps=0);\n'}
+[3.468223] (camera_publisher) StderrLine: {'line': b'      |                                                \x1b[01;36m\x1b[K~~~~~~^~~~\x1b[m\x1b[K\n'}
+[3.468269] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:926:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::Mat(cv::Size, int, void*, size_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.468314] (camera_publisher) StderrLine: {'line': b'  926 |     \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(Size size, int type, void* data, size_t step=AUTO_STEP);\n'}
+[3.468359] (camera_publisher) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.468407] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:926:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kcv::Size\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kcv::Size_<int>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.468462] (camera_publisher) StderrLine: {'line': b'  926 |     Mat(\x1b[01;36m\x1b[KSize size\x1b[m\x1b[K, int type, void* data, size_t step=AUTO_STEP);\n'}
+[3.468508] (camera_publisher) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~^~~~\x1b[m\x1b[K\n'}
+[3.468553] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:910:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::Mat(int, int, int, void*, size_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.468599] (camera_publisher) StderrLine: {'line': b'  910 |     \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(int rows, int cols, int type, void* data, size_t step=AUTO_STEP);\n'}
+[3.468646] (camera_publisher) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.468692] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:910:45:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 4 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kvoid*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.468744] (camera_publisher) StderrLine: {'line': b'  910 |     Mat(int rows, int cols, int type, \x1b[01;36m\x1b[Kvoid* data\x1b[m\x1b[K, size_t step=AUTO_STEP);\n'}
+[3.468790] (camera_publisher) StderrLine: {'line': b'      |                                       \x1b[01;36m\x1b[K~~~~~~^~~~\x1b[m\x1b[K\n'}
+[3.468836] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:894:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::Mat(const cv::Mat&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.468889] (camera_publisher) StderrLine: {'line': b'  894 |     \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(const Mat& m);\n'}
+[3.468934] (camera_publisher) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.468985] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:894:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 4 provided\n'}
+[3.469038] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:884:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::Mat(const std::vector<int>&, int, const Scalar&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.469089] (camera_publisher) StderrLine: {'line': b'  884 |     \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(const std::vector<int>& sizes, int type, const Scalar& s);\n'}
+[3.469135] (camera_publisher) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.469182] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:884:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 4 provided\n'}
+[3.469235] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:874:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::Mat(int, const int*, int, const Scalar&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.469288] (camera_publisher) StderrLine: {'line': b'  874 |     \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(int ndims, const int* sizes, int type, const Scalar& s);\n'}
+[3.469333] (camera_publisher) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.469378] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:874:62:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 4 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst Scalar&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst cv::Scalar_<double>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.469426] (camera_publisher) StderrLine: {'line': b'  874 |     Mat(int ndims, const int* sizes, int type, \x1b[01;36m\x1b[Kconst Scalar& s\x1b[m\x1b[K);\n'}
+[3.469470] (camera_publisher) StderrLine: {'line': b'      |                                                \x1b[01;36m\x1b[K~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[3.469515] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:863:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::Mat(const std::vector<int>&, int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.469568] (camera_publisher) StderrLine: {'line': b'  863 |     \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(const std::vector<int>& sizes, int type);\n'}
+[3.469617] (camera_publisher) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.469662] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:863:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 4 provided\n'}
+[3.469707] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:856:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::Mat(int, const int*, int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.469758] (camera_publisher) StderrLine: {'line': b'  856 |     \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(int ndims, const int* sizes, int type);\n'}
+[3.469803] (camera_publisher) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.469847] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:856:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 4 provided\n'}
+[3.469891] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:848:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::Mat(cv::Size, int, const Scalar&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.469938] (camera_publisher) StderrLine: {'line': b'  848 |     \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(Size size, int type, const Scalar& s);\n'}
+[3.469983] (camera_publisher) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.470027] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:848:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 4 provided\n'}
+[3.470078] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:837:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::Mat(int, int, int, const Scalar&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.470123] (camera_publisher) StderrLine: {'line': b'  837 |     \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(int rows, int cols, int type, const Scalar& s);\n'}
+[3.470169] (camera_publisher) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.470213] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:837:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 4 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst Scalar&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst cv::Scalar_<double>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.470260] (camera_publisher) StderrLine: {'line': b'  837 |     Mat(int rows, int cols, int type, \x1b[01;36m\x1b[Kconst Scalar& s\x1b[m\x1b[K);\n'}
+[3.470305] (camera_publisher) StderrLine: {'line': b'      |                                       \x1b[01;36m\x1b[K~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[3.470351] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:826:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::Mat(cv::Size, int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.470397] (camera_publisher) StderrLine: {'line': b'  826 |     \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(Size size, int type);\n'}
+[3.470442] (camera_publisher) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.470487] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:826:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 4 provided\n'}
+[3.470532] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:818:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::Mat(int, int, int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.470577] (camera_publisher) StderrLine: {'line': b'  818 |     \x1b[01;36m\x1b[KMat\x1b[m\x1b[K(int rows, int cols, int type);\n'}
+[3.470622] (camera_publisher) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.470669] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:818:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 4 provided\n'}
+[3.470719] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:810:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat::Mat()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.470772] (camera_publisher) StderrLine: {'line': b'  810 |     \x1b[01;36m\x1b[KMat\x1b[m\x1b[K() CV_NOEXCEPT;\n'}
+[3.470822] (camera_publisher) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.470868] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/mat.hpp:810:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 4 provided\n'}
+[3.522074] (-) TimerEvent: {}
+[3.622491] (-) TimerEvent: {}
+[3.723047] (-) TimerEvent: {}
+[3.823846] (-) TimerEvent: {}
+[3.924240] (-) TimerEvent: {}
+[4.025032] (-) TimerEvent: {}
+[4.125508] (-) TimerEvent: {}
+[4.226023] (-) TimerEvent: {}
+[4.326492] (-) TimerEvent: {}
+[4.426949] (-) TimerEvent: {}
+[4.527767] (-) TimerEvent: {}
+[4.628247] (-) TimerEvent: {}
+[4.729094] (-) TimerEvent: {}
+[4.829590] (-) TimerEvent: {}
+[4.930065] (-) TimerEvent: {}
+[5.030740] (-) TimerEvent: {}
+[5.131108] (-) TimerEvent: {}
+[5.231555] (-) TimerEvent: {}
+[5.332033] (-) TimerEvent: {}
+[5.432512] (-) TimerEvent: {}
+[5.533352] (-) TimerEvent: {}
+[5.634026] (-) TimerEvent: {}
+[5.734510] (-) TimerEvent: {}
+[5.834953] (-) TimerEvent: {}
+[5.935323] (-) TimerEvent: {}
+[6.036190] (-) TimerEvent: {}
+[6.137035] (-) TimerEvent: {}
+[6.237892] (-) TimerEvent: {}
+[6.338743] (-) TimerEvent: {}
+[6.439212] (-) TimerEvent: {}
+[6.539965] (-) TimerEvent: {}
+[6.640798] (-) TimerEvent: {}
+[6.741601] (-) TimerEvent: {}
+[6.842099] (-) TimerEvent: {}
+[6.942946] (-) TimerEvent: {}
+[7.043439] (-) TimerEvent: {}
+[7.143913] (-) TimerEvent: {}
+[7.244303] (-) TimerEvent: {}
+[7.345080] (-) TimerEvent: {}
+[7.445532] (-) TimerEvent: {}
+[7.545922] (-) TimerEvent: {}
+[7.646402] (-) TimerEvent: {}
+[7.747172] (-) TimerEvent: {}
+[7.848004] (-) TimerEvent: {}
+[7.948822] (-) TimerEvent: {}
+[8.049630] (-) TimerEvent: {}
+[8.150142] (-) TimerEvent: {}
+[8.251059] (-) TimerEvent: {}
+[8.351886] (-) TimerEvent: {}
+[8.452729] (-) TimerEvent: {}
+[8.553606] (-) TimerEvent: {}
+[8.654070] (-) TimerEvent: {}
+[8.754520] (-) TimerEvent: {}
+[8.855309] (-) TimerEvent: {}
+[8.955970] (-) TimerEvent: {}
+[9.056792] (-) TimerEvent: {}
+[9.157637] (-) TimerEvent: {}
+[9.184841] (camera_publisher) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/camera_publisher.dir/build.make:76: CMakeFiles/camera_publisher.dir/src/camera_publisher.cpp.o] Error 1\n'}
+[9.185372] (camera_publisher) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/camera_publisher.dir/all] Error 2\n'}
+[9.185984] (camera_publisher) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.188924] (camera_publisher) CommandEnded: {'returncode': 2}
+[9.258705] (-) TimerEvent: {}
+[9.266000] (camera_publisher) JobEnded: {'identifier': 'camera_publisher', 'rc': 2}
+[9.280429] (-) EventReactorShutdown: {}

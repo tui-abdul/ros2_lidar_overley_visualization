@@ -1,0 +1,14 @@
+[0.014s] Invoking command in '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher -- -j28 -l28
+[0.105s] [35m[1mConsolidate compiler generated dependencies of target camera_publisher[0m
+[0.155s] [ 50%] [32mBuilding CXX object CMakeFiles/camera_publisher.dir/src/camera_publisher.cpp.o[0m
+[6.038s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:28:50:[m[K [01;31m[Kerror: [m[K‘[01m[Klength[m[K’ is not a type
+[6.038s]    28 |         std::vector<std::array<float, 4>> points([01;31m[Klength[m[K);
+[6.039s]       |                                                  [01;31m[K^~~~~~[m[K
+[6.114s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:[m[K In member function ‘[01m[Kvoid CameraSubscriber::Callback(const ConstSharedPtr&, const ConstSharedPtr&)[m[K’:
+[6.115s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:77:13:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kstd::vector<std::array<float, 4> > CameraSubscriber::points(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+[6.115s]    77 |             [01;31m[Kpoints[m[K.push_back(point_data);
+[6.115s]       |             [01;31m[K^~~~~~[m[K
+[11.087s] gmake[2]: *** [CMakeFiles/camera_publisher.dir/build.make:76: CMakeFiles/camera_publisher.dir/src/camera_publisher.cpp.o] Error 1
+[11.087s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/camera_publisher.dir/all] Error 2
+[11.088s] gmake: *** [Makefile:146: all] Error 2
+[11.093s] Invoked command in '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher -- -j28 -l28

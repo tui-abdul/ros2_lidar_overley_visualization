@@ -1,0 +1,369 @@
+[0.000000] (-) TimerEvent: {}
+[0.000924] (camera_publisher) JobQueued: {'identifier': 'camera_publisher', 'dependencies': OrderedDict()}
+[0.001354] (camera_publisher) JobStarted: {'identifier': 'camera_publisher'}
+[0.017439] (camera_publisher) JobProgress: {'identifier': 'camera_publisher', 'progress': 'cmake'}
+[0.018368] (camera_publisher) JobProgress: {'identifier': 'camera_publisher', 'progress': 'build'}
+[0.019635] (camera_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher', '--', '-j28', '-l28'], 'cwd': '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', ''), ('USER', 'abd1340m'), ('SSH_AGENT_PID', '13296'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/abd1340m'), ('OLDPWD', '/home/abd1340m/Dokumente/c++'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('MODULES_CMD', '/usr/lib/x86_64-linux-gnu/modulecmd.tcl'), ('LC_CTYPE', ''), ('SYSTEMD_EXEC_PID', '13559'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1003/bus'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'abd1340m'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('LC_COLLATE', ''), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/fma-pc-kc05lx:@/tmp/.ICE-unix/13537,unix/fma-pc-kc05lx:/tmp/.ICE-unix/13537'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/19d5fbd9_750d_4505_8adf_289e9b55ff87'), ('XDG_RUNTIME_DIR', '/run/user/1003'), ('DISPLAY', ':10.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AUTH_SOCK', '/run/user/1003/keyring/ssh'), ('ROS_DOMAIN_ID', '12'), ('AMENT_PREFIX_PATH', '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher:/opt/ros/humble'), ('LC_MESSAGES', ''), ('UID', '1003'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1003/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', 'JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64/bin/java'), ('PWD', '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher'), ('LOADEDMODULES', ''), ('LC_ALL', 'en_US.UTF-8'), ('PYLON_ROOT', '/opt/pylon'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/home/abd1340m/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', ':/opt/pylon/lib/gentlproducer/gtl'), ('MANPATH', ':'), ('VTE_VERSION', '6800'), ('MODULEPATH', '/etc/environment-modules/modules:/usr/share/modules/versions:/usr/share/modules/$MODULE_VERSION/modulefiles:/usr/share/modules/modulefiles'), ('MODULESHOME', '/usr/share/modules'), ('CMAKE_PREFIX_PATH', '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher:/opt/ros/humble')]), 'shell': False}
+[0.072599] (camera_publisher) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099499] (-) TimerEvent: {}
+[0.200317] (-) TimerEvent: {}
+[0.242673] (camera_publisher) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.277089] (camera_publisher) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.278797] (camera_publisher) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.283267] (camera_publisher) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.291810] (camera_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.300785] (-) TimerEvent: {}
+[0.303892] (camera_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.351198] (camera_publisher) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.351924] (camera_publisher) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.400936] (-) TimerEvent: {}
+[0.501471] (-) TimerEvent: {}
+[0.501890] (camera_publisher) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.601600] (-) TimerEvent: {}
+[0.655032] (camera_publisher) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.702068] (-) TimerEvent: {}
+[0.758588] (camera_publisher) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.772823] (camera_publisher) StdoutLine: {'line': b'-- Found message_filters: 4.3.5 (/opt/ros/humble/share/message_filters/cmake)\n'}
+[0.790153] (camera_publisher) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[0.802183] (-) TimerEvent: {}
+[0.811140] (camera_publisher) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[0.881768] (camera_publisher) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[0.882151] (camera_publisher) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.902659] (-) TimerEvent: {}
+[0.910726] (camera_publisher) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization \n'}
+[0.926923] (camera_publisher) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[0.951813] (camera_publisher) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[1.002827] (-) TimerEvent: {}
+[1.040224] (camera_publisher) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[1.040617] (camera_publisher) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[1.090328] (camera_publisher) StdoutLine: {'line': b'-- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  \n'}
+[1.098294] (camera_publisher) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX \n'}
+[1.103277] (-) TimerEvent: {}
+[1.204043] (-) TimerEvent: {}
+[1.304902] (-) TimerEvent: {}
+[1.383159] (camera_publisher) StdoutLine: {'line': b'-- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") \n'}
+[1.384046] (camera_publisher) StdoutLine: {'line': b'-- Found MPI: TRUE (found version "3.1") found components: C \n'}
+[1.390582] (camera_publisher) StdoutLine: {'line': b'-- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") \n'}
+[1.405023] (-) TimerEvent: {}
+[1.407564] (camera_publisher) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[1.426656] (camera_publisher) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") \n'}
+[1.444557] (camera_publisher) StdoutLine: {'line': b'-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") \n'}
+[1.505448] (-) TimerEvent: {}
+[1.591210] (camera_publisher) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[1.592464] (camera_publisher) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[1.605579] (-) TimerEvent: {}
+[1.706051] (-) TimerEvent: {}
+[1.749181] (camera_publisher) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[1.749636] (camera_publisher) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[1.806203] (-) TimerEvent: {}
+[1.897853] (camera_publisher) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[1.898355] (camera_publisher) StdoutLine: {'line': b'-- Looking for connect\n'}
+[1.906299] (-) TimerEvent: {}
+[2.006720] (-) TimerEvent: {}
+[2.045805] (camera_publisher) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[2.046464] (camera_publisher) StdoutLine: {'line': b'-- Looking for remove\n'}
+[2.106872] (-) TimerEvent: {}
+[2.202191] (camera_publisher) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[2.202648] (camera_publisher) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[2.207106] (-) TimerEvent: {}
+[2.308077] (-) TimerEvent: {}
+[2.353919] (camera_publisher) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[2.354466] (camera_publisher) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[2.408580] (-) TimerEvent: {}
+[2.498032] (camera_publisher) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[2.509103] (-) TimerEvent: {}
+[2.610004] (-) TimerEvent: {}
+[2.651375] (camera_publisher) StdoutLine: {'line': b'-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") \n'}
+[2.657621] (camera_publisher) StdoutLine: {'line': b'-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  \n'}
+[2.661656] (camera_publisher) StdoutLine: {'line': b'-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") \n'}
+[2.663694] (camera_publisher) StdoutLine: {'line': b'-- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") \n'}
+[2.687096] (camera_publisher) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") \n'}
+[2.697311] (camera_publisher) StdoutLine: {'line': b'-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  \n'}
+[2.701303] (camera_publisher) StdoutLine: {'line': b'-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") \n'}
+[2.706226] (camera_publisher) StdoutLine: {'line': b'-- Found utf8cpp: /usr/include/utf8cpp  \n'}
+[2.710100] (-) TimerEvent: {}
+[2.810530] (-) TimerEvent: {}
+[2.842277] (camera_publisher) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[2.875436] (camera_publisher) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[2.910660] (-) TimerEvent: {}
+[2.958371] (camera_publisher) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[2.961601] (camera_publisher) StdoutLine: {'line': b'-- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") \n'}
+[2.962181] (camera_publisher) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.010814] (-) TimerEvent: {}
+[3.085086] (camera_publisher) StdoutLine: {'line': b'-- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") \n'}
+[3.085632] (camera_publisher) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[3.085820] (camera_publisher) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[3.110929] (-) TimerEvent: {}
+[3.211365] (-) TimerEvent: {}
+[3.265903] (camera_publisher) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[3.280830] (camera_publisher) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.296487] (camera_publisher) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[3.311831] (-) TimerEvent: {}
+[3.412638] (-) TimerEvent: {}
+[3.442332] (camera_publisher) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[3.513173] (-) TimerEvent: {}
+[3.614046] (-) TimerEvent: {}
+[3.670651] (camera_publisher) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.714188] (-) TimerEvent: {}
+[3.804415] (camera_publisher) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[3.805887] (camera_publisher) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[3.806139] (camera_publisher) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[3.806889] (camera_publisher) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[3.807102] (camera_publisher) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[3.807816] (camera_publisher) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[3.808017] (camera_publisher) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[3.808659] (camera_publisher) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[3.808840] (camera_publisher) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[3.809549] (camera_publisher) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[3.809732] (camera_publisher) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[3.810394] (camera_publisher) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[3.810584] (camera_publisher) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[3.810778] (camera_publisher) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[3.810967] (camera_publisher) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[3.811177] (camera_publisher) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[3.811324] (camera_publisher) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[3.811836] (camera_publisher) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[3.812038] (camera_publisher) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[3.812770] (camera_publisher) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[3.812962] (camera_publisher) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[3.813717] (camera_publisher) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[3.813897] (camera_publisher) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[3.814251] (-) TimerEvent: {}
+[3.814616] (camera_publisher) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[3.814830] (camera_publisher) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[3.815624] (camera_publisher) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[3.815821] (camera_publisher) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[3.816590] (camera_publisher) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[3.816782] (camera_publisher) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[3.817584] (camera_publisher) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[3.817782] (camera_publisher) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[3.818544] (camera_publisher) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[3.818733] (camera_publisher) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[3.819497] (camera_publisher) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[3.819682] (camera_publisher) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[3.820424] (camera_publisher) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[3.820650] (camera_publisher) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[3.821450] (camera_publisher) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[3.821638] (camera_publisher) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[3.822327] (camera_publisher) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[3.822753] (camera_publisher) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[3.822952] (camera_publisher) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[3.823136] (camera_publisher) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[3.823349] (camera_publisher) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[3.823499] (camera_publisher) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[3.823707] (camera_publisher) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[3.823857] (camera_publisher) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[3.824415] (camera_publisher) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[3.824605] (camera_publisher) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[3.825596] (camera_publisher) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[3.826207] (camera_publisher) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  \n'}
+[3.831591] (camera_publisher) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[3.914400] (-) TimerEvent: {}
+[4.014870] (-) TimerEvent: {}
+[4.115704] (-) TimerEvent: {}
+[4.123988] (camera_publisher) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.147886] (camera_publisher) StdoutLine: {'line': b'-- Generating done\n'}
+[4.150287] (camera_publisher) StdoutLine: {'line': b'-- Build files have been written to: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher\n'}
+[4.208062] (camera_publisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target camera_publisher\x1b[0m\n'}
+[4.216182] (-) TimerEvent: {}
+[4.242172] (camera_publisher) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/camera_publisher.dir/src/camera_publisher.cpp.o\x1b[0m\n'}
+[4.316697] (-) TimerEvent: {}
+[4.417259] (-) TimerEvent: {}
+[4.517755] (-) TimerEvent: {}
+[4.618585] (-) TimerEvent: {}
+[4.719430] (-) TimerEvent: {}
+[4.819991] (-) TimerEvent: {}
+[4.920866] (-) TimerEvent: {}
+[5.021743] (-) TimerEvent: {}
+[5.122619] (-) TimerEvent: {}
+[5.223516] (-) TimerEvent: {}
+[5.324384] (-) TimerEvent: {}
+[5.425245] (-) TimerEvent: {}
+[5.525733] (-) TimerEvent: {}
+[5.626580] (-) TimerEvent: {}
+[5.727416] (-) TimerEvent: {}
+[5.827909] (-) TimerEvent: {}
+[5.928754] (-) TimerEvent: {}
+[6.029481] (-) TimerEvent: {}
+[6.130332] (-) TimerEvent: {}
+[6.231190] (-) TimerEvent: {}
+[6.331686] (-) TimerEvent: {}
+[6.432545] (-) TimerEvent: {}
+[6.533053] (-) TimerEvent: {}
+[6.633910] (-) TimerEvent: {}
+[6.734774] (-) TimerEvent: {}
+[6.835277] (-) TimerEvent: {}
+[6.936155] (-) TimerEvent: {}
+[7.036998] (-) TimerEvent: {}
+[7.137876] (-) TimerEvent: {}
+[7.238735] (-) TimerEvent: {}
+[7.339621] (-) TimerEvent: {}
+[7.440504] (-) TimerEvent: {}
+[7.540990] (-) TimerEvent: {}
+[7.641851] (-) TimerEvent: {}
+[7.742353] (-) TimerEvent: {}
+[7.842848] (-) TimerEvent: {}
+[7.943356] (-) TimerEvent: {}
+[8.044203] (-) TimerEvent: {}
+[8.144697] (-) TimerEvent: {}
+[8.245483] (-) TimerEvent: {}
+[8.346341] (-) TimerEvent: {}
+[8.447193] (-) TimerEvent: {}
+[8.548051] (-) TimerEvent: {}
+[8.648905] (-) TimerEvent: {}
+[8.749773] (-) TimerEvent: {}
+[8.850240] (-) TimerEvent: {}
+[8.950728] (-) TimerEvent: {}
+[9.051239] (-) TimerEvent: {}
+[9.151743] (-) TimerEvent: {}
+[9.252235] (-) TimerEvent: {}
+[9.352722] (-) TimerEvent: {}
+[9.453604] (-) TimerEvent: {}
+[9.554110] (-) TimerEvent: {}
+[9.654590] (-) TimerEvent: {}
+[9.755058] (-) TimerEvent: {}
+[9.855526] (-) TimerEvent: {}
+[9.955998] (-) TimerEvent: {}
+[10.056530] (-) TimerEvent: {}
+[10.157477] (-) TimerEvent: {}
+[10.257972] (-) TimerEvent: {}
+[10.358445] (-) TimerEvent: {}
+[10.459272] (-) TimerEvent: {}
+[10.560150] (-) TimerEvent: {}
+[10.661049] (-) TimerEvent: {}
+[10.761528] (-) TimerEvent: {}
+[10.862388] (-) TimerEvent: {}
+[10.962913] (-) TimerEvent: {}
+[11.063768] (-) TimerEvent: {}
+[11.164605] (-) TimerEvent: {}
+[11.265441] (-) TimerEvent: {}
+[11.366329] (-) TimerEvent: {}
+[11.466812] (-) TimerEvent: {}
+[11.567646] (-) TimerEvent: {}
+[11.668125] (-) TimerEvent: {}
+[11.768951] (-) TimerEvent: {}
+[11.869404] (-) TimerEvent: {}
+[11.969758] (-) TimerEvent: {}
+[12.070243] (-) TimerEvent: {}
+[12.170731] (-) TimerEvent: {}
+[12.271589] (-) TimerEvent: {}
+[12.372109] (-) TimerEvent: {}
+[12.472712] (-) TimerEvent: {}
+[12.573247] (-) TimerEvent: {}
+[12.673727] (-) TimerEvent: {}
+[12.774234] (-) TimerEvent: {}
+[12.874724] (-) TimerEvent: {}
+[12.975650] (-) TimerEvent: {}
+[13.076502] (-) TimerEvent: {}
+[13.177365] (-) TimerEvent: {}
+[13.277782] (-) TimerEvent: {}
+[13.378253] (-) TimerEvent: {}
+[13.479003] (-) TimerEvent: {}
+[13.579858] (-) TimerEvent: {}
+[13.680701] (-) TimerEvent: {}
+[13.781578] (-) TimerEvent: {}
+[13.882062] (-) TimerEvent: {}
+[13.982914] (-) TimerEvent: {}
+[14.083761] (-) TimerEvent: {}
+[14.184609] (-) TimerEvent: {}
+[14.285111] (-) TimerEvent: {}
+[14.385603] (-) TimerEvent: {}
+[14.486106] (-) TimerEvent: {}
+[14.586965] (-) TimerEvent: {}
+[14.687448] (-) TimerEvent: {}
+[14.788194] (-) TimerEvent: {}
+[14.888745] (-) TimerEvent: {}
+[14.989599] (-) TimerEvent: {}
+[15.090008] (-) TimerEvent: {}
+[15.190471] (-) TimerEvent: {}
+[15.291327] (-) TimerEvent: {}
+[15.392166] (-) TimerEvent: {}
+[15.492658] (-) TimerEvent: {}
+[15.593508] (-) TimerEvent: {}
+[15.693968] (-) TimerEvent: {}
+[15.794359] (-) TimerEvent: {}
+[15.895194] (-) TimerEvent: {}
+[15.996037] (-) TimerEvent: {}
+[16.096905] (-) TimerEvent: {}
+[16.197439] (-) TimerEvent: {}
+[16.298167] (-) TimerEvent: {}
+[16.398494] (-) TimerEvent: {}
+[16.499159] (-) TimerEvent: {}
+[16.599498] (-) TimerEvent: {}
+[16.700192] (-) TimerEvent: {}
+[16.800535] (-) TimerEvent: {}
+[16.901351] (-) TimerEvent: {}
+[17.001855] (-) TimerEvent: {}
+[17.102280] (-) TimerEvent: {}
+[17.203118] (-) TimerEvent: {}
+[17.303938] (-) TimerEvent: {}
+[17.404648] (-) TimerEvent: {}
+[17.505366] (-) TimerEvent: {}
+[17.605738] (-) TimerEvent: {}
+[17.706510] (-) TimerEvent: {}
+[17.807212] (-) TimerEvent: {}
+[17.907933] (-) TimerEvent: {}
+[18.008268] (-) TimerEvent: {}
+[18.108667] (-) TimerEvent: {}
+[18.209463] (-) TimerEvent: {}
+[18.309919] (-) TimerEvent: {}
+[18.410611] (-) TimerEvent: {}
+[18.511340] (-) TimerEvent: {}
+[18.612062] (-) TimerEvent: {}
+[18.712780] (-) TimerEvent: {}
+[18.813459] (-) TimerEvent: {}
+[18.913860] (-) TimerEvent: {}
+[19.014219] (-) TimerEvent: {}
+[19.114902] (-) TimerEvent: {}
+[19.215603] (-) TimerEvent: {}
+[19.316288] (-) TimerEvent: {}
+[19.416970] (-) TimerEvent: {}
+[19.517454] (-) TimerEvent: {}
+[19.618208] (-) TimerEvent: {}
+[19.718914] (-) TimerEvent: {}
+[19.819632] (-) TimerEvent: {}
+[19.920358] (-) TimerEvent: {}
+[20.020816] (-) TimerEvent: {}
+[20.121494] (-) TimerEvent: {}
+[20.222397] (-) TimerEvent: {}
+[20.322961] (-) TimerEvent: {}
+[20.423475] (-) TimerEvent: {}
+[20.432474] (camera_publisher) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable camera_publisher\x1b[0m\n'}
+[20.523952] (-) TimerEvent: {}
+[20.624400] (-) TimerEvent: {}
+[20.724912] (-) TimerEvent: {}
+[20.825439] (-) TimerEvent: {}
+[20.925944] (-) TimerEvent: {}
+[21.026432] (-) TimerEvent: {}
+[21.126932] (-) TimerEvent: {}
+[21.227412] (-) TimerEvent: {}
+[21.327914] (-) TimerEvent: {}
+[21.428398] (-) TimerEvent: {}
+[21.528908] (-) TimerEvent: {}
+[21.564137] (camera_publisher) StdoutLine: {'line': b'[100%] Built target camera_publisher\n'}
+[21.583671] (camera_publisher) CommandEnded: {'returncode': 0}
+[21.629478] (-) TimerEvent: {}
+[21.641785] (camera_publisher) JobProgress: {'identifier': 'camera_publisher', 'progress': 'install'}
+[21.660496] (camera_publisher) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher'], 'cwd': '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', ''), ('USER', 'abd1340m'), ('SSH_AGENT_PID', '13296'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/abd1340m'), ('OLDPWD', '/home/abd1340m/Dokumente/c++'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('MODULES_CMD', '/usr/lib/x86_64-linux-gnu/modulecmd.tcl'), ('LC_CTYPE', ''), ('SYSTEMD_EXEC_PID', '13559'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1003/bus'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'abd1340m'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('LC_COLLATE', ''), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/fma-pc-kc05lx:@/tmp/.ICE-unix/13537,unix/fma-pc-kc05lx:/tmp/.ICE-unix/13537'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/19d5fbd9_750d_4505_8adf_289e9b55ff87'), ('XDG_RUNTIME_DIR', '/run/user/1003'), ('DISPLAY', ':10.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AUTH_SOCK', '/run/user/1003/keyring/ssh'), ('ROS_DOMAIN_ID', '12'), ('AMENT_PREFIX_PATH', '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher:/opt/ros/humble'), ('LC_MESSAGES', ''), ('UID', '1003'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1003/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', 'JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64/bin/java'), ('PWD', '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher'), ('LOADEDMODULES', ''), ('LC_ALL', 'en_US.UTF-8'), ('PYLON_ROOT', '/opt/pylon'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/home/abd1340m/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', ':/opt/pylon/lib/gentlproducer/gtl'), ('MANPATH', ':'), ('VTE_VERSION', '6800'), ('MODULEPATH', '/etc/environment-modules/modules:/usr/share/modules/versions:/usr/share/modules/$MODULE_VERSION/modulefiles:/usr/share/modules/modulefiles'), ('MODULESHOME', '/usr/share/modules'), ('CMAKE_PREFIX_PATH', '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher:/opt/ros/humble')]), 'shell': False}
+[21.679656] (camera_publisher) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.680277] (camera_publisher) StdoutLine: {'line': b'-- Installing: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/lib/camera_publisher/camera_publisher\n'}
+[21.689550] (camera_publisher) StdoutLine: {'line': b'-- Set runtime path of "/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/lib/camera_publisher/camera_publisher" to ""\n'}
+[21.689974] (camera_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/ament_index/resource_index/package_run_dependencies/camera_publisher\n'}
+[21.690263] (camera_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/ament_index/resource_index/parent_prefix_path/camera_publisher\n'}
+[21.690509] (camera_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/environment/ament_prefix_path.sh\n'}
+[21.690660] (camera_publisher) StdoutLine: {'line': b'-- Installing: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/environment/ament_prefix_path.dsv\n'}
+[21.690805] (camera_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/environment/path.sh\n'}
+[21.690951] (camera_publisher) StdoutLine: {'line': b'-- Installing: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/environment/path.dsv\n'}
+[21.691092] (camera_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/local_setup.bash\n'}
+[21.691233] (camera_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/local_setup.sh\n'}
+[21.691374] (camera_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/local_setup.zsh\n'}
+[21.691514] (camera_publisher) StdoutLine: {'line': b'-- Installing: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/local_setup.dsv\n'}
+[21.691655] (camera_publisher) StdoutLine: {'line': b'-- Installing: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/package.dsv\n'}
+[21.691797] (camera_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/ament_index/resource_index/packages/camera_publisher\n'}
+[21.691959] (camera_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/cmake/camera_publisherConfig.cmake\n'}
+[21.692112] (camera_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/cmake/camera_publisherConfig-version.cmake\n'}
+[21.692781] (camera_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/package.xml\n'}
+[21.694049] (camera_publisher) CommandEnded: {'returncode': 0}
+[21.729568] (-) TimerEvent: {}
+[21.784141] (camera_publisher) JobEnded: {'identifier': 'camera_publisher', 'rc': 0}
+[21.785721] (-) EventReactorShutdown: {}

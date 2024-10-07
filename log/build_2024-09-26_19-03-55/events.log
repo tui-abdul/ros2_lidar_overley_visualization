@@ -1,0 +1,217 @@
+[0.000000] (-) TimerEvent: {}
+[0.000431] (camera_publisher) JobQueued: {'identifier': 'camera_publisher', 'dependencies': OrderedDict()}
+[0.000883] (camera_publisher) JobStarted: {'identifier': 'camera_publisher'}
+[0.009898] (camera_publisher) JobProgress: {'identifier': 'camera_publisher', 'progress': 'cmake'}
+[0.010658] (camera_publisher) JobProgress: {'identifier': 'camera_publisher', 'progress': 'build'}
+[0.011486] (camera_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher', '--', '-j28', '-l28'], 'cwd': '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', ''), ('USER', 'abd1340m'), ('SSH_AGENT_PID', '13296'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/abd1340m'), ('OLDPWD', '/home/abd1340m/Dokumente/c++'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('MODULES_CMD', '/usr/lib/x86_64-linux-gnu/modulecmd.tcl'), ('LC_CTYPE', ''), ('SYSTEMD_EXEC_PID', '13559'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1003/bus'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'abd1340m'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('LC_COLLATE', ''), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/fma-pc-kc05lx:@/tmp/.ICE-unix/13537,unix/fma-pc-kc05lx:/tmp/.ICE-unix/13537'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/19d5fbd9_750d_4505_8adf_289e9b55ff87'), ('XDG_RUNTIME_DIR', '/run/user/1003'), ('DISPLAY', ':10.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AUTH_SOCK', '/run/user/1003/keyring/ssh'), ('ROS_DOMAIN_ID', '12'), ('AMENT_PREFIX_PATH', '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher:/opt/ros/humble'), ('LC_MESSAGES', ''), ('UID', '1003'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1003/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', 'JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64/bin/java'), ('PWD', '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher'), ('LOADEDMODULES', ''), ('LC_ALL', 'en_US.UTF-8'), ('PYLON_ROOT', '/opt/pylon'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/home/abd1340m/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', ':/opt/pylon/lib/gentlproducer/gtl'), ('MANPATH', ':'), ('VTE_VERSION', '6800'), ('MODULEPATH', '/etc/environment-modules/modules:/usr/share/modules/versions:/usr/share/modules/$MODULE_VERSION/modulefiles:/usr/share/modules/modulefiles'), ('MODULESHOME', '/usr/share/modules'), ('CMAKE_PREFIX_PATH', '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher:/opt/ros/humble')]), 'shell': False}
+[0.100302] (-) TimerEvent: {}
+[0.114185] (camera_publisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target camera_publisher\x1b[0m\n'}
+[0.165939] (camera_publisher) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/camera_publisher.dir/src/camera_publisher.cpp.o\x1b[0m\n'}
+[0.200429] (-) TimerEvent: {}
+[0.300916] (-) TimerEvent: {}
+[0.401407] (-) TimerEvent: {}
+[0.502255] (-) TimerEvent: {}
+[0.603118] (-) TimerEvent: {}
+[0.703880] (-) TimerEvent: {}
+[0.804378] (-) TimerEvent: {}
+[0.904907] (-) TimerEvent: {}
+[1.005479] (-) TimerEvent: {}
+[1.106176] (-) TimerEvent: {}
+[1.206767] (-) TimerEvent: {}
+[1.307277] (-) TimerEvent: {}
+[1.407784] (-) TimerEvent: {}
+[1.508330] (-) TimerEvent: {}
+[1.608841] (-) TimerEvent: {}
+[1.709348] (-) TimerEvent: {}
+[1.809839] (-) TimerEvent: {}
+[1.910252] (-) TimerEvent: {}
+[2.010642] (-) TimerEvent: {}
+[2.111097] (-) TimerEvent: {}
+[2.211453] (-) TimerEvent: {}
+[2.312036] (-) TimerEvent: {}
+[2.412584] (-) TimerEvent: {}
+[2.513600] (-) TimerEvent: {}
+[2.614462] (-) TimerEvent: {}
+[2.715326] (-) TimerEvent: {}
+[2.816215] (-) TimerEvent: {}
+[2.917125] (-) TimerEvent: {}
+[3.018056] (-) TimerEvent: {}
+[3.118746] (-) TimerEvent: {}
+[3.219514] (-) TimerEvent: {}
+[3.320142] (-) TimerEvent: {}
+[3.420654] (-) TimerEvent: {}
+[3.521062] (-) TimerEvent: {}
+[3.621534] (-) TimerEvent: {}
+[3.721994] (-) TimerEvent: {}
+[3.822497] (-) TimerEvent: {}
+[3.923330] (-) TimerEvent: {}
+[4.024195] (-) TimerEvent: {}
+[4.124698] (-) TimerEvent: {}
+[4.225206] (-) TimerEvent: {}
+[4.325713] (-) TimerEvent: {}
+[4.426142] (-) TimerEvent: {}
+[4.526644] (-) TimerEvent: {}
+[4.627062] (-) TimerEvent: {}
+[4.727561] (-) TimerEvent: {}
+[4.828381] (-) TimerEvent: {}
+[4.928899] (-) TimerEvent: {}
+[5.029355] (-) TimerEvent: {}
+[5.130169] (-) TimerEvent: {}
+[5.230652] (-) TimerEvent: {}
+[5.331161] (-) TimerEvent: {}
+[5.431822] (-) TimerEvent: {}
+[5.532349] (-) TimerEvent: {}
+[5.632844] (-) TimerEvent: {}
+[5.733421] (-) TimerEvent: {}
+[5.833968] (-) TimerEvent: {}
+[5.934489] (-) TimerEvent: {}
+[6.035434] (-) TimerEvent: {}
+[6.136086] (-) TimerEvent: {}
+[6.236512] (-) TimerEvent: {}
+[6.337042] (-) TimerEvent: {}
+[6.437599] (-) TimerEvent: {}
+[6.538572] (-) TimerEvent: {}
+[6.639455] (-) TimerEvent: {}
+[6.740051] (-) TimerEvent: {}
+[6.840546] (-) TimerEvent: {}
+[6.941033] (-) TimerEvent: {}
+[7.041518] (-) TimerEvent: {}
+[7.142022] (-) TimerEvent: {}
+[7.242414] (-) TimerEvent: {}
+[7.342892] (-) TimerEvent: {}
+[7.443346] (-) TimerEvent: {}
+[7.543825] (-) TimerEvent: {}
+[7.644341] (-) TimerEvent: {}
+[7.744836] (-) TimerEvent: {}
+[7.845357] (-) TimerEvent: {}
+[7.945865] (-) TimerEvent: {}
+[8.046767] (-) TimerEvent: {}
+[8.147665] (-) TimerEvent: {}
+[8.248539] (-) TimerEvent: {}
+[8.349390] (-) TimerEvent: {}
+[8.449881] (-) TimerEvent: {}
+[8.550742] (-) TimerEvent: {}
+[8.651241] (-) TimerEvent: {}
+[8.752095] (-) TimerEvent: {}
+[8.852606] (-) TimerEvent: {}
+[8.953105] (-) TimerEvent: {}
+[9.053952] (-) TimerEvent: {}
+[9.154815] (-) TimerEvent: {}
+[9.255686] (-) TimerEvent: {}
+[9.356564] (-) TimerEvent: {}
+[9.457427] (-) TimerEvent: {}
+[9.558278] (-) TimerEvent: {}
+[9.659148] (-) TimerEvent: {}
+[9.760015] (-) TimerEvent: {}
+[9.860874] (-) TimerEvent: {}
+[9.961729] (-) TimerEvent: {}
+[10.062580] (-) TimerEvent: {}
+[10.163450] (-) TimerEvent: {}
+[10.264307] (-) TimerEvent: {}
+[10.365137] (-) TimerEvent: {}
+[10.465634] (-) TimerEvent: {}
+[10.566145] (-) TimerEvent: {}
+[10.666666] (-) TimerEvent: {}
+[10.767149] (-) TimerEvent: {}
+[10.867615] (-) TimerEvent: {}
+[10.968062] (-) TimerEvent: {}
+[11.068554] (-) TimerEvent: {}
+[11.169041] (-) TimerEvent: {}
+[11.269517] (-) TimerEvent: {}
+[11.370387] (-) TimerEvent: {}
+[11.471250] (-) TimerEvent: {}
+[11.572136] (-) TimerEvent: {}
+[11.672705] (-) TimerEvent: {}
+[11.773190] (-) TimerEvent: {}
+[11.874014] (-) TimerEvent: {}
+[11.974860] (-) TimerEvent: {}
+[12.075708] (-) TimerEvent: {}
+[12.176577] (-) TimerEvent: {}
+[12.277053] (-) TimerEvent: {}
+[12.377523] (-) TimerEvent: {}
+[12.478001] (-) TimerEvent: {}
+[12.578492] (-) TimerEvent: {}
+[12.679000] (-) TimerEvent: {}
+[12.779936] (-) TimerEvent: {}
+[12.880413] (-) TimerEvent: {}
+[12.980887] (-) TimerEvent: {}
+[13.081377] (-) TimerEvent: {}
+[13.181835] (-) TimerEvent: {}
+[13.282321] (-) TimerEvent: {}
+[13.383174] (-) TimerEvent: {}
+[13.484052] (-) TimerEvent: {}
+[13.584544] (-) TimerEvent: {}
+[13.685039] (-) TimerEvent: {}
+[13.785519] (-) TimerEvent: {}
+[13.886042] (-) TimerEvent: {}
+[13.987053] (-) TimerEvent: {}
+[14.087502] (-) TimerEvent: {}
+[14.187961] (-) TimerEvent: {}
+[14.288441] (-) TimerEvent: {}
+[14.388926] (-) TimerEvent: {}
+[14.489404] (-) TimerEvent: {}
+[14.590232] (-) TimerEvent: {}
+[14.691063] (-) TimerEvent: {}
+[14.791570] (-) TimerEvent: {}
+[14.892538] (-) TimerEvent: {}
+[14.993393] (-) TimerEvent: {}
+[15.094248] (-) TimerEvent: {}
+[15.194763] (-) TimerEvent: {}
+[15.295708] (-) TimerEvent: {}
+[15.396258] (-) TimerEvent: {}
+[15.496864] (-) TimerEvent: {}
+[15.597332] (-) TimerEvent: {}
+[15.698152] (-) TimerEvent: {}
+[15.798991] (-) TimerEvent: {}
+[15.899884] (-) TimerEvent: {}
+[16.000720] (-) TimerEvent: {}
+[16.101425] (-) TimerEvent: {}
+[16.202355] (-) TimerEvent: {}
+[16.302836] (-) TimerEvent: {}
+[16.403674] (-) TimerEvent: {}
+[16.504581] (-) TimerEvent: {}
+[16.605107] (-) TimerEvent: {}
+[16.705977] (-) TimerEvent: {}
+[16.806839] (-) TimerEvent: {}
+[16.907343] (-) TimerEvent: {}
+[17.007895] (-) TimerEvent: {}
+[17.027485] (camera_publisher) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable camera_publisher\x1b[0m\n'}
+[17.108181] (-) TimerEvent: {}
+[17.208720] (-) TimerEvent: {}
+[17.309232] (-) TimerEvent: {}
+[17.410120] (-) TimerEvent: {}
+[17.510996] (-) TimerEvent: {}
+[17.611871] (-) TimerEvent: {}
+[17.712728] (-) TimerEvent: {}
+[17.813235] (-) TimerEvent: {}
+[17.913724] (-) TimerEvent: {}
+[18.014589] (-) TimerEvent: {}
+[18.115507] (-) TimerEvent: {}
+[18.216021] (-) TimerEvent: {}
+[18.216482] (camera_publisher) StdoutLine: {'line': b'[100%] Built target camera_publisher\n'}
+[18.242726] (camera_publisher) CommandEnded: {'returncode': 0}
+[18.294912] (camera_publisher) JobProgress: {'identifier': 'camera_publisher', 'progress': 'install'}
+[18.305060] (camera_publisher) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher'], 'cwd': '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', ''), ('USER', 'abd1340m'), ('SSH_AGENT_PID', '13296'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/abd1340m'), ('OLDPWD', '/home/abd1340m/Dokumente/c++'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('MODULES_CMD', '/usr/lib/x86_64-linux-gnu/modulecmd.tcl'), ('LC_CTYPE', ''), ('SYSTEMD_EXEC_PID', '13559'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1003/bus'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'abd1340m'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('LC_COLLATE', ''), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/fma-pc-kc05lx:@/tmp/.ICE-unix/13537,unix/fma-pc-kc05lx:/tmp/.ICE-unix/13537'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/19d5fbd9_750d_4505_8adf_289e9b55ff87'), ('XDG_RUNTIME_DIR', '/run/user/1003'), ('DISPLAY', ':10.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AUTH_SOCK', '/run/user/1003/keyring/ssh'), ('ROS_DOMAIN_ID', '12'), ('AMENT_PREFIX_PATH', '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher:/opt/ros/humble'), ('LC_MESSAGES', ''), ('UID', '1003'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1003/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', 'JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64/bin/java'), ('PWD', '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher'), ('LOADEDMODULES', ''), ('LC_ALL', 'en_US.UTF-8'), ('PYLON_ROOT', '/opt/pylon'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/home/abd1340m/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', ':/opt/pylon/lib/gentlproducer/gtl'), ('MANPATH', ':'), ('VTE_VERSION', '6800'), ('MODULEPATH', '/etc/environment-modules/modules:/usr/share/modules/versions:/usr/share/modules/$MODULE_VERSION/modulefiles:/usr/share/modules/modulefiles'), ('MODULESHOME', '/usr/share/modules'), ('CMAKE_PREFIX_PATH', '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher:/opt/ros/humble')]), 'shell': False}
+[18.316120] (-) TimerEvent: {}
+[18.322523] (camera_publisher) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.322845] (camera_publisher) StdoutLine: {'line': b'-- Installing: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/lib/camera_publisher/camera_publisher\n'}
+[18.335240] (camera_publisher) StdoutLine: {'line': b'-- Set runtime path of "/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/lib/camera_publisher/camera_publisher" to ""\n'}
+[18.335651] (camera_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/ament_index/resource_index/package_run_dependencies/camera_publisher\n'}
+[18.335879] (camera_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/ament_index/resource_index/parent_prefix_path/camera_publisher\n'}
+[18.336080] (camera_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/environment/ament_prefix_path.sh\n'}
+[18.336219] (camera_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/environment/ament_prefix_path.dsv\n'}
+[18.336353] (camera_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/environment/path.sh\n'}
+[18.336496] (camera_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/environment/path.dsv\n'}
+[18.336637] (camera_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/local_setup.bash\n'}
+[18.336776] (camera_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/local_setup.sh\n'}
+[18.336969] (camera_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/local_setup.zsh\n'}
+[18.337100] (camera_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/local_setup.dsv\n'}
+[18.337229] (camera_publisher) StdoutLine: {'line': b'-- Installing: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/package.dsv\n'}
+[18.337360] (camera_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/ament_index/resource_index/packages/camera_publisher\n'}
+[18.337490] (camera_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/cmake/camera_publisherConfig.cmake\n'}
+[18.337620] (camera_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/cmake/camera_publisherConfig-version.cmake\n'}
+[18.337751] (camera_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher/share/camera_publisher/package.xml\n'}
+[18.340421] (camera_publisher) CommandEnded: {'returncode': 0}
+[18.416301] (-) TimerEvent: {}
+[18.424855] (camera_publisher) JobEnded: {'identifier': 'camera_publisher', 'rc': 0}
+[18.425968] (-) EventReactorShutdown: {}

@@ -1,0 +1,14 @@
+[0.013s] Invoking command in '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher -- -j28 -l28
+[0.101s] [35m[1mConsolidate compiler generated dependencies of target camera_publisher[0m
+[0.133s] [ 50%] [32mBuilding CXX object CMakeFiles/camera_publisher.dir/src/camera_publisher.cpp.o[0m
+[3.475s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:[m[K In member function ‘[01m[Kvoid CameraSubscriber::Callback(const ConstSharedPtr&, const ConstSharedPtr&)[m[K’:
+[3.475s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:59:58:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kmatrix_coefficients[m[K’ in ‘[01m[K(CameraSubscriber*)this[m[K’, which is of pointer type ‘[01m[KCameraSubscriber*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+[3.476s]    59 |             cv::undistort(image, undistorted_image, this.[01;31m[Kmatrix_coefficients[m[K, this.distortion_coefficients);
+[3.476s]       |                                                          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.476s] [01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:59:84:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kdistortion_coefficients[m[K’ in ‘[01m[K(CameraSubscriber*)this[m[K’, which is of pointer type ‘[01m[KCameraSubscriber*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+[3.476s]    59 |             cv::undistort(image, undistorted_image, this.matrix_coefficients, this.[01;31m[Kdistortion_coefficients[m[K);
+[3.476s]       |                                                                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.676s] gmake[2]: *** [CMakeFiles/camera_publisher.dir/build.make:76: CMakeFiles/camera_publisher.dir/src/camera_publisher.cpp.o] Error 1
+[8.676s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/camera_publisher.dir/all] Error 2
+[8.676s] gmake: *** [Makefile:146: all] Error 2
+[8.682s] Invoked command in '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher -- -j28 -l28

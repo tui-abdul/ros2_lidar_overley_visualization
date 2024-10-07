@@ -1,0 +1,33 @@
+[35m[1mConsolidate compiler generated dependencies of target camera_publisher[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/camera_publisher.dir/src/camera_publisher.cpp.o[0m
+[01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:[m[K In constructor ‘[01m[KCameraSubscriber::CameraSubscriber()[m[K’:
+[01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:29:17:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kcv::Mat matrix_coefficients[m[K’
+   29 |         cv::Mat [01;31m[Kmatrix_coefficients[m[K  = matrix_coefficients_mat(3, 3, CV_64F, matrix_coefficients.data());
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:25:29:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kstd::vector<double, std::allocator<double> > matrix_coefficients[m[K’
+   25 |         std::vector<double> [01;36m[Kmatrix_coefficients[m[K = calib_data["camera_matrix"]["data"].as<std::vector<double>>();
+      |                             [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:29:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatrix_coefficients_mat[m[K’ was not declared in this scope; did you mean ‘[01m[Kmatrix_coefficients[m[K’?
+   29 |         cv::Mat matrix_coefficients  = [01;31m[Kmatrix_coefficients_mat[m[K(3, 3, CV_64F, matrix_coefficients.data());
+      |                                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                        [32m[Kmatrix_coefficients[m[K
+[01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:30:17:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kcv::Mat distortion_coefficients[m[K’
+   30 |         cv::Mat [01;31m[Kdistortion_coefficients[m[K  = distortion_coefficients_mat(distortion_coefficients.size(), 1, CV_64F, distortion_coefficients.data());
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:26:29:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kstd::vector<double, std::allocator<double> > distortion_coefficients[m[K’
+   26 |         std::vector<double> [01;36m[Kdistortion_coefficients[m[K = calib_data["distortion_coefficients"]["data"].as<std::vector<double>>();
+      |                             [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:30:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistortion_coefficients_mat[m[K’ was not declared in this scope; did you mean ‘[01m[Kdistortion_coefficients[m[K’?
+   30 |         cv::Mat distortion_coefficients  = [01;31m[Kdistortion_coefficients_mat[m[K(distortion_coefficients.size(), 1, CV_64F, distortion_coefficients.data());
+      |                                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                            [32m[Kdistortion_coefficients[m[K
+[01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:[m[K In member function ‘[01m[Kvoid CameraSubscriber::Callback(const ConstSharedPtr&, const ConstSharedPtr&)[m[K’:
+[01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:59:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kmatrix_coefficients[m[K’ was not declared in this scope
+   59 |             cv::undistort(image, undistorted_image, [01;31m[Kmatrix_coefficients[m[K, distortion_coefficients);
+      |                                                     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:59:74:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistortion_coefficients[m[K’ was not declared in this scope
+   59 |             cv::undistort(image, undistorted_image, matrix_coefficients, [01;31m[Kdistortion_coefficients[m[K);
+      |                                                                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/camera_publisher.dir/build.make:76: CMakeFiles/camera_publisher.dir/src/camera_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/camera_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

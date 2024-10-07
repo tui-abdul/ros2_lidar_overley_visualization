@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target camera_publisher[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/camera_publisher.dir/src/camera_publisher.cpp.o[0m
+[01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:26:31:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   26 |         std::vector<std::float[01;31m[K>>[m[K point_intensity;
+      |                               [01;31m[K^~[m[K
+[01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:26:31:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:[m[K In member function ‘[01m[Kvoid CameraSubscriber::Callback(const ConstSharedPtr&, const ConstSharedPtr&)[m[K’:
+[01m[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:73:29:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpush_back[m[K’ in ‘[01m[K((CameraSubscriber*)this)->CameraSubscriber::point_intensity[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   73 |             point_intensity.[01;31m[Kpush_back[m[K(point.intensity);
+      |                             [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/camera_publisher.dir/build.make:76: CMakeFiles/camera_publisher.dir/src/camera_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/camera_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

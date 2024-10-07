@@ -1,0 +1,118 @@
+[0.000000] (-) TimerEvent: {}
+[0.000549] (camera_publisher) JobQueued: {'identifier': 'camera_publisher', 'dependencies': OrderedDict()}
+[0.000631] (camera_publisher) JobStarted: {'identifier': 'camera_publisher'}
+[0.009169] (camera_publisher) JobProgress: {'identifier': 'camera_publisher', 'progress': 'cmake'}
+[0.009680] (camera_publisher) JobProgress: {'identifier': 'camera_publisher', 'progress': 'build'}
+[0.010244] (camera_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher', '--', '-j28', '-l28'], 'cwd': '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', ''), ('USER', 'abd1340m'), ('SSH_AGENT_PID', '13296'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/abd1340m'), ('OLDPWD', '/home/abd1340m/Dokumente/c++'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('MODULES_CMD', '/usr/lib/x86_64-linux-gnu/modulecmd.tcl'), ('LC_CTYPE', ''), ('SYSTEMD_EXEC_PID', '13559'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1003/bus'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'abd1340m'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('LC_COLLATE', ''), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/fma-pc-kc05lx:@/tmp/.ICE-unix/13537,unix/fma-pc-kc05lx:/tmp/.ICE-unix/13537'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/19d5fbd9_750d_4505_8adf_289e9b55ff87'), ('XDG_RUNTIME_DIR', '/run/user/1003'), ('DISPLAY', ':10.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AUTH_SOCK', '/run/user/1003/keyring/ssh'), ('ROS_DOMAIN_ID', '12'), ('AMENT_PREFIX_PATH', '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher:/opt/ros/humble'), ('LC_MESSAGES', ''), ('UID', '1003'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1003/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', 'JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64/bin/java'), ('PWD', '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/build/camera_publisher'), ('LOADEDMODULES', ''), ('LC_ALL', 'en_US.UTF-8'), ('PYLON_ROOT', '/opt/pylon'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/gnome:/home/abd1340m/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', ':/opt/pylon/lib/gentlproducer/gtl'), ('MANPATH', ':'), ('VTE_VERSION', '6800'), ('MODULEPATH', '/etc/environment-modules/modules:/usr/share/modules/versions:/usr/share/modules/$MODULE_VERSION/modulefiles:/usr/share/modules/modulefiles'), ('MODULESHOME', '/usr/share/modules'), ('CMAKE_PREFIX_PATH', '/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/install/camera_publisher:/opt/ros/humble')]), 'shell': False}
+[0.099438] (-) TimerEvent: {}
+[0.107968] (camera_publisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target camera_publisher\x1b[0m\n'}
+[0.151774] (camera_publisher) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/camera_publisher.dir/src/camera_publisher.cpp.o\x1b[0m\n'}
+[0.199565] (-) TimerEvent: {}
+[0.300035] (-) TimerEvent: {}
+[0.400484] (-) TimerEvent: {}
+[0.501337] (-) TimerEvent: {}
+[0.601852] (-) TimerEvent: {}
+[0.702570] (-) TimerEvent: {}
+[0.803236] (-) TimerEvent: {}
+[0.903911] (-) TimerEvent: {}
+[1.004293] (-) TimerEvent: {}
+[1.104773] (-) TimerEvent: {}
+[1.205633] (-) TimerEvent: {}
+[1.306488] (-) TimerEvent: {}
+[1.407343] (-) TimerEvent: {}
+[1.507828] (-) TimerEvent: {}
+[1.608260] (-) TimerEvent: {}
+[1.708759] (-) TimerEvent: {}
+[1.809258] (-) TimerEvent: {}
+[1.909749] (-) TimerEvent: {}
+[2.010589] (-) TimerEvent: {}
+[2.111479] (-) TimerEvent: {}
+[2.211967] (-) TimerEvent: {}
+[2.312448] (-) TimerEvent: {}
+[2.412934] (-) TimerEvent: {}
+[2.513452] (-) TimerEvent: {}
+[2.614297] (-) TimerEvent: {}
+[2.715152] (-) TimerEvent: {}
+[2.815661] (-) TimerEvent: {}
+[2.916153] (-) TimerEvent: {}
+[3.016652] (-) TimerEvent: {}
+[3.117143] (-) TimerEvent: {}
+[3.218018] (-) TimerEvent: {}
+[3.318509] (-) TimerEvent: {}
+[3.419192] (-) TimerEvent: {}
+[3.479181] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KCameraSubscriber::CameraSubscriber()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.479619] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:29:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmatrix_coefficients_mat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmatrix_coefficients\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.479818] (camera_publisher) StderrLine: {'line': b'   29 |         \x1b[01;31m\x1b[Kmatrix_coefficients_mat\x1b[m\x1b[K = cv::Mat (3, 3, CV_64F, matrix_coefficients.data());\n'}
+[3.479975] (camera_publisher) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.480126] (camera_publisher) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kmatrix_coefficients\x1b[m\x1b[K\n'}
+[3.483991] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:30:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdistortion_coefficients_mat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kdistortion_coefficients\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.484325] (camera_publisher) StderrLine: {'line': b'   30 |         \x1b[01;31m\x1b[Kdistortion_coefficients_mat\x1b[m\x1b[K = cv::Mat (distortion_coefficients.size(), 1, CV_64F, distortion_coefficients.data());\n'}
+[3.484497] (camera_publisher) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.484649] (camera_publisher) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kdistortion_coefficients\x1b[m\x1b[K\n'}
+[3.519336] (-) TimerEvent: {}
+[3.566858] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid CameraSubscriber::Callback(const ConstSharedPtr&, const ConstSharedPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.567263] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:59:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmatrix_coefficients_mat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.567460] (camera_publisher) StderrLine: {'line': b'   59 |             cv::undistort(image, undistorted_image, \x1b[01;31m\x1b[Kmatrix_coefficients_mat\x1b[m\x1b[K, distortion_coefficients_mat);\n'}
+[3.567616] (camera_publisher) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.573841] (camera_publisher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abd1340m/Dokumente/c++/ros2_cpp_vis_ws/src/visualise_cpp/src/camera_publisher.cpp:59:78:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdistortion_coefficients_mat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.574154] (camera_publisher) StderrLine: {'line': b'   59 |             cv::undistort(image, undistorted_image, matrix_coefficients_mat, \x1b[01;31m\x1b[Kdistortion_coefficients_mat\x1b[m\x1b[K);\n'}
+[3.574326] (camera_publisher) StderrLine: {'line': b'      |                                                                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.619467] (-) TimerEvent: {}
+[3.719956] (-) TimerEvent: {}
+[3.820826] (-) TimerEvent: {}
+[3.921700] (-) TimerEvent: {}
+[4.022219] (-) TimerEvent: {}
+[4.122710] (-) TimerEvent: {}
+[4.223241] (-) TimerEvent: {}
+[4.323744] (-) TimerEvent: {}
+[4.424275] (-) TimerEvent: {}
+[4.524707] (-) TimerEvent: {}
+[4.625208] (-) TimerEvent: {}
+[4.725776] (-) TimerEvent: {}
+[4.826389] (-) TimerEvent: {}
+[4.926887] (-) TimerEvent: {}
+[5.027899] (-) TimerEvent: {}
+[5.128371] (-) TimerEvent: {}
+[5.228941] (-) TimerEvent: {}
+[5.329385] (-) TimerEvent: {}
+[5.430073] (-) TimerEvent: {}
+[5.530415] (-) TimerEvent: {}
+[5.631101] (-) TimerEvent: {}
+[5.731796] (-) TimerEvent: {}
+[5.832131] (-) TimerEvent: {}
+[5.932466] (-) TimerEvent: {}
+[6.032835] (-) TimerEvent: {}
+[6.133186] (-) TimerEvent: {}
+[6.233984] (-) TimerEvent: {}
+[6.334839] (-) TimerEvent: {}
+[6.435369] (-) TimerEvent: {}
+[6.535865] (-) TimerEvent: {}
+[6.636348] (-) TimerEvent: {}
+[6.737187] (-) TimerEvent: {}
+[6.837636] (-) TimerEvent: {}
+[6.938342] (-) TimerEvent: {}
+[7.039093] (-) TimerEvent: {}
+[7.139793] (-) TimerEvent: {}
+[7.240269] (-) TimerEvent: {}
+[7.341094] (-) TimerEvent: {}
+[7.441960] (-) TimerEvent: {}
+[7.542819] (-) TimerEvent: {}
+[7.643475] (-) TimerEvent: {}
+[7.743970] (-) TimerEvent: {}
+[7.844817] (-) TimerEvent: {}
+[7.945672] (-) TimerEvent: {}
+[8.046523] (-) TimerEvent: {}
+[8.147345] (-) TimerEvent: {}
+[8.247721] (-) TimerEvent: {}
+[8.348173] (-) TimerEvent: {}
+[8.448573] (-) TimerEvent: {}
+[8.549058] (-) TimerEvent: {}
+[8.649910] (-) TimerEvent: {}
+[8.750409] (-) TimerEvent: {}
+[8.780071] (camera_publisher) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/camera_publisher.dir/build.make:76: CMakeFiles/camera_publisher.dir/src/camera_publisher.cpp.o] Error 1\n'}
+[8.780417] (camera_publisher) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/camera_publisher.dir/all] Error 2\n'}
+[8.780751] (camera_publisher) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.783239] (camera_publisher) CommandEnded: {'returncode': 2}
+[8.843779] (camera_publisher) JobEnded: {'identifier': 'camera_publisher', 'rc': 2}
+[8.850820] (-) TimerEvent: {}
+[8.854942] (-) EventReactorShutdown: {}

@@ -14,8 +14,13 @@ find_package(cv_bridge REQUIRED)
 find_package(OpenCV REQUIRED)
 find_package(yaml-cpp REQUIRED)
 find_package(message_filters REQUIRED)
+find_package(PCL REQUIRED)
+find_package(pcl_conversions REQUIRED)
 
 add_executable(camera_publisher src/camera_publisher.cpp)
+
+include_directories(include ${PCL_INCLUDE_DIRS} ${pcl_conversions_INCLUDE_DIRS})
+
 
 ament_target_dependencies(camera_publisher
   rclcpp
@@ -24,6 +29,8 @@ ament_target_dependencies(camera_publisher
   OpenCV
   yaml-cpp
   message_filters
+  PCL 
+  pcl_conversions
 )
 
 target_link_libraries(camera_publisher ${OpenCV_LIBS} yaml-cpp)
