@@ -1,4 +1,4 @@
-**Camera and LiDAR Synchronization and Visualization**
+__Camera and LiDAR Synchronization and Visualization__
 
 This ROS 2 C++ package synchronizes camera and LiDAR data streams, applies transformations and projections to align the LiDAR points with the camera image, and visualizes them using intensity-based coloring. Synchronization is achieved with message filters using an approximate time policy.
 Features
